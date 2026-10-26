@@ -1,0 +1,147 @@
+# =====================================================================
+#  Parking Entrance System - configuration
+#  Edit this file, then restart run.bat. Lines starting with # are comments.
+# =====================================================================
+
+# ---- Cameras --------------------------------------------------------
+# "source" can be:
+#   * Mobile phone camera stream (IP Webcam: "http://<PHONE_IP>:8080/video" or RTSP: "rtsp://<PHONE_IP>:8554/live")
+#   * an RTSP address of a CCTV camera, e.g.  rtsp://admin:password@192.168.1.10:554/stream1
+#   * a video file path (good for testing), e.g.  C:/videos/gate_test.mp4
+#   * a webcam number, e.g.  0
+#
+# camera1 = main gate, looks at the FRONT of vehicles (front plates)  -> first chance to issue a slip
+# camera2 = ~20 m further down the road, looks at the BACK of vehicles -> backup, issues a slip only
+#           when camera1 did not already do so for that vehicle
+#
+# "roi" (optional) limits detection to the road. List of corner points as fractions of the picture
+# width/height, e.g.  roi: [[0.05,0.3],[0.95,0.3],[0.95,1.0],[0.05,1.0]]   (empty = whole picture).
+# The dashboard draws the area on the live picture so you can check it. Use it to ignore parked cars,
+# footpaths and other roads.
+cameras:
+  camera1:
+    source: "http://10.194.135.135:8080/video"
+    loop_video: true        # only used for video files: restart the video when it ends
+    roi: []
+  camera2:
+    source: "http://10.194.135.39:8080/video"
+    loop_video: true
+    roi: []
+
+# ---- MongoDB ---------------------------------------------------------
+mongodb:
+  uri: "mongodb://localhost:27017"   # add user:password@ here if your MongoDB needs a login
+  database: "parking_entrance"
+  server_selection_timeout_ms: 2000
+
+# ---- Station screen (web page) -----------------------------------------
+web:
+  host: "127.0.0.1"    # use "0.0.0.0" to open the screen from other PCs on your network
+  port: 5000
+  open_browser: true   # open the screen automatically when the program starts
+
+# ---- Slip printer -------------------------------------------------------
+# You can also change all of this later from the screen: Settings tab (it is saved in data/settings.json
+# and then takes priority over this file).
+#   mode: file         -> nothing is printed; the slip picture is saved in data/slips (default until you set a printer)
+#         windows_gdi  -> any printer installed in Windows (works with the normal printer driver)
+#         windows_raw  -> ESC/POS thermal printer installed in Windows; faster and cuts the paper automatically
+#         network      -> ESC/POS thermal printer on the network (host + port 9100)
+printer:
+  mode: "file"
+  name: ""                 # Windows printer name (choose it from the Settings tab)
+  network_host: ""
+  network_port: 9100
+  paper_width_mm: 80       # 80 or 58
+  auto_cut: true           # windows_raw / network only
+
+# ---- Slip layout --------------------------------------------------------
+slip:
+  title: "PARKING SLIP"
+  footer_lines: []         # e.g. ["Keep this slip safe", "Thank you"]
+  number_start: 1          # first slip number (only used when no slip exists yet)
+  number_digits: 6         # 000123
+  number_prefix: ""        # e.g. "P-" gives P-000123
+
+# ---- Models (bundled, work fully offline) -------------------------------------
+models:
+  plate_detector: "models/yolo-v9-t-640-license-plates-end2end.onnx"
+  ocr_model: "models/cct_s_v2_global.onnx"
+  ocr_config: "models/cct_s_v2_global_plate_config.yaml"
+  vehicle_detector: "models/rf-detr-nano-384-coco.onnx"
+  plate_confidence: 0.50        # lower = finds more plates but also more false boxes
+  device: "gpu"                 # "cpu" (works everywhere) or "gpu" (DirectML / CUDA)
+  cpu_threads: 4                # CPU threads per model, per camera
+
+# ---- Vehicles -------------------------------------------------------------------
+vehicles:
+  confidence: 0.45
+  classes: ["car", "motorcycle", "bus", "truck"]   # bicycles and people are ignored
+  min_vehicle_width_px: 50      # ignore vehicles smaller than this (too far away)
+  every_n_frames: 2             # run vehicle detector every 2 frames
+  must_be_moving: true          # parked / standing cars in view never get a slip
+  bike_plate_confidence: 0.25   # motorcycles: plate search inside the bike uses this (lower) confidence limit
+  second_stage_confidence: 0.30 # same search inside cars / trucks / buses
+  second_stage_max_vehicles: 4  # how many moving vehicles (motorcycles first, then the largest) get the zoomed plate search per frame
+
+# ---- How a plate is read and confirmed -----------------------------------------
+recognition:
+  process_fps: 15               # higher FPS for fast-moving vehicles (30-40 km/h)
+  min_reads: 2                  # confirm a plate after this many agreeing frame reads
+  min_reads_on_loss: 1          # vehicle left view early: accept this many reads
+  max_reads: 10                 # stop waiting and decide after this many reads
+  min_char_confidence: 0.5      # ignore reads whose average OCR confidence is lower
+  min_agreement: 0.6            # how much the frame reads must agree (0-1)
+  min_plate_width_px: 36        # ignore plates smaller than this (too far away to read)
+  track_max_missing_s: 1.2      # a vehicle out of view this long is treated as gone
+  unreadable_after_s: 6         # vehicle still in view this long with no readable plate = unreadable
+
+# ---- Motion gate (saves CPU while the road is empty) ------------------------------
+motion:
+  enabled: true
+  gate_fraction: 0.004          # share of the picture that must change to start analysing
+  hold_seconds: 2.0             # keep analysing this long after the last movement
+  moving_fraction: 0.03         # share of a vehicle's box that must change to count it as moving
+
+# ---- Two-camera matching -------------------------------------------------------------
+matching:
+  travel_time_min_s: 2          # a vehicle needs at least this long from camera 1 to camera 2
+  travel_time_max_s: 30         # ... and normally no more than this
+  repeat_protection_s: 60       # same plate seen again by the same camera within this time = same vehicle
+  fuzzy_repeat_s: 6             # a slightly different read of the same plate counts as the same vehicle for this long
+  unsure_max_cost: 1.5          # camera 2: plates this similar to a camera 1 slip are treated as "probably the same" (no new slip)
+
+# ---- Plate format validation (Pakistan) --------------------------------------------
+# The reader knows the Pakistani layouts listed in app/pk_formats.py (3 letters + 3/4 digits, 2 letters + 3/4 digits,
+# year formats such as LEB-21-1234, suffix letters such as LE-16-5471A, short old plates, ...). Every reading is forced
+# into the best-fitting layout, so a "Z" in the digit part becomes "2" and so on.
+validation:
+  enabled: true
+  min_length: 5                      # plates shorter than this are rejected (the 4-character layouts in pk_formats.py then stay unused)
+  allow_unusual: true                # steady reading that fits NO known layout: still issue the slip, flagged "please check"
+  patterns:                          # extra regular expressions, accepted in addition to the Pakistani layouts
+    - '^[A-Z]{2,4}[0-9]{3,4}$'       # letters + number            e.g. LEA1234, ABC123
+    - '^[A-Z]{2,4}[0-9]{5,6}$'       # letters + year + serial     e.g. LEB211234
+    - '^[A-Z]{1,3}[0-9]{2,4}$'       # motorcycle / short plates   e.g. K1234, LE12
+  extra_templates: []                # optional extra layouts, e.g. [{slots: "LLLNN", groups: [3,2], prior: -1.5}]
+  disabled_templates: []             # layouts to switch off, e.g. ["LNNN"]
+
+# ---- Plate reading quality (see docs/IMPROVEMENT_GUIDE.md) ---------------------------------
+ocr:
+  temperature: 2.0                   # >1 = trust the OCR model less (it is over-confident); 1 = raw model
+  min_quality: 0.30                  # a plate reading below this quality (0-1) is ignored
+  min_margin: 0.5                    # the best reading must beat the runner-up by this much before a slip is printed
+  max_evidence: 40                   # frames' worth of evidence kept per vehicle
+  fast_accept_quality: 0.8           # a single-row plate read this clearly needs no extra attempts (saves CPU; 0 = off)
+  merged_weight: 1.0                 # square two-row plates: weight of the 'both rows as one line' reading (0 = off)
+  strip_two_row_year: true           # square two-row plates: strip registration year from top row (e.g. MNE-17 / 412 -> MNE-412)
+  unusual_min_confidence: 0.55       # confidence (on the calibrated scale, see temperature) needed for a reading that fits no known layout
+
+# ---- Alerts --------------------------------------------------------------------------
+alerts:
+  camera_offline_seconds: 20    # alert when a camera has had no picture for this long
+
+# ---- Storage -------------------------------------------------------------------------
+storage:
+  data_dir: "data"              # snapshots, slip pictures, offline buffer and logs are kept here
+  jpeg_quality: 85

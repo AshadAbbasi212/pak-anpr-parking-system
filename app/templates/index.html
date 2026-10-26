@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parking Entrance - Station</title>
+<style>
+  :root{--bg:#f3f5f8;--card:#fff;--ink:#1c2430;--mute:#6b7686;--line:#e2e6ec;--brand:#1f4fd8;
+        --green:#14924a;--red:#d62d2d;--amber:#c98400;--blue:#1a73c8;--gray:#8a94a3;--bar:#14202f}
+  @media (prefers-color-scheme:dark){:root{--bg:#10151c;--card:#19212b;--ink:#e8edf3;--mute:#93a0b1;--line:#2a3441;
+        --brand:#6c93ff;--green:#37c477;--red:#ff6b6b;--amber:#f0b429;--blue:#5aa9ff;--gray:#9aa5b5;--bar:#0b1017}}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "Segoe UI",system-ui,sans-serif}
+  header{background:var(--bar);color:#fff;padding:10px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  header h1{font-size:17px;margin:0;font-weight:600}
+  .pill{padding:3px 10px;border-radius:99px;font-size:12px;background:#ffffff22;color:#fff;white-space:nowrap}
+  .pill.ok{background:#14924a88}.pill.bad{background:#d62d2dbb}.pill.warn{background:#c98400aa}
+  nav{display:flex;gap:4px;padding:10px 20px 0;flex-wrap:wrap}
+  nav button{border:0;background:transparent;color:var(--mute);padding:9px 14px;border-radius:8px 8px 0 0;cursor:pointer;font-size:14px}
+  nav button.on{background:var(--card);color:var(--ink);font-weight:600}
+  nav .badge{background:var(--red);color:#fff;border-radius:99px;padding:0 7px;font-size:11px;margin-left:4px}
+  main{padding:0 20px 30px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:0 10px 10px 10px;padding:16px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:14px}
+  .stat{background:var(--bg);border-radius:10px;padding:10px 12px}
+  .stat b{display:block;font-size:26px;line-height:1.1}.stat span{color:var(--mute);font-size:12px}
+  .live{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px}
+  @media (max-width:1100px){.live{grid-template-columns:1fr}}
+  .cams{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media (max-width:700px){.cams{grid-template-columns:1fr}}
+  .cam{background:#000;border-radius:10px;overflow:hidden;position:relative;min-height:120px}
+  .cam img{width:100%;display:block}
+  .cam .tag{position:absolute;right:6px;bottom:6px;font-size:11px;padding:2px 8px;border-radius:99px;background:#000a;color:#fff}
+  h3{margin:14px 0 8px;font-size:15px}
+  table{width:100%;border-collapse:collapse} th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:middle}
+  th{font-size:12px;color:var(--mute);font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+  .plate{font-family:Consolas,monospace;font-weight:700;letter-spacing:.8px;background:#f6d84b;color:#111;padding:2px 8px;border-radius:5px;border:1px solid #0003;white-space:nowrap}
+  .code{font-family:Consolas,monospace;font-weight:800;font-size:18px}
+  .mute{color:var(--mute)} .small{font-size:12px}
+  button.b,a.b{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 11px;border-radius:7px;cursor:pointer;font-size:13px;text-decoration:none;display:inline-block}
+  button.b:hover,a.b:hover{border-color:var(--brand)} button.pri{background:var(--brand);border-color:var(--brand);color:#fff}
+  button.danger{color:var(--red)}
+  input,select{padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:var(--card);color:var(--ink);font-size:14px}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+  .slip{border:1px solid var(--line);border-radius:10px;padding:9px 11px;margin-bottom:8px;display:flex;gap:10px;align-items:center}
+  .slip img{height:46px;border-radius:5px;flex:none}
+  .slip .grow{flex:1;min-width:0}
+  .slip .acts{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+  .slip.fresh{animation:fresh 2.5s ease-out}
+  @keyframes fresh{from{background:#14924a44}to{background:transparent}}
+  .st{font-size:11px;padding:1px 7px;border-radius:99px;border:1px solid var(--line);color:var(--mute)}
+  .st.printed{color:var(--green);border-color:var(--green)}.st.failed{color:var(--red);border-color:var(--red)}
+  .st.queued{color:var(--amber);border-color:var(--amber)}
+  .ev{display:flex;gap:8px;padding:5px 0;border-bottom:1px solid var(--line);align-items:center;font-size:13px}
+  .dot{width:11px;height:11px;border-radius:50%;flex:none}
+  .dot.green{background:var(--green)}.dot.red{background:var(--red)}.dot.gray{background:var(--gray)}.dot.blue{background:var(--blue)}.dot.yellow{background:var(--amber)}
+  .alert{border:1px solid var(--line);border-left:5px solid var(--amber);border-radius:8px;padding:10px 12px;margin-bottom:10px;display:flex;gap:12px;align-items:flex-start}
+  .alert.danger{border-left-color:var(--red);background:#d62d2d12}.alert.info{border-left-color:var(--blue)} .alert.done{opacity:.5}
+  .alert img{width:150px;border-radius:6px;display:block}.alert .grow{flex:1}
+  .bars{display:flex;align-items:flex-end;gap:4px;height:180px;margin:10px 0 4px}
+  .bar{flex:1;display:flex;flex-direction:column-reverse;min-width:8px;position:relative}
+  .bar i{display:block;width:100%}.bar .c{background:var(--brand)}.bar .k{background:var(--green)}.bar .o{background:var(--amber)}.bar .w{background:var(--blue)}
+  .bar em{position:absolute;top:-16px;left:0;right:0;text-align:center;font-style:normal;font-size:10px;color:var(--mute)}
+  .axis{display:flex;gap:4px}.axis span{flex:1;text-align:center;font-size:10px;color:var(--mute);min-width:8px}
+  .legend span{margin-right:14px;font-size:12px}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px}
+  #toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 16px;border-radius:8px;display:none;z-index:9;max-width:90vw}
+  .hide{display:none} .field{display:grid;grid-template-columns:170px 1fr;gap:8px;align-items:center;margin-bottom:10px;max-width:640px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🚗 Parking Entrance - Station</h1>
+  <span class="pill" id="dbPill">database…</span>
+  <span class="pill" id="prPill">printer…</span>
+  <span id="camPills"></span>
+  <button class="b" id="soundBtn" style="margin-left:auto" onclick="toggleSound()">🔕 Sound off</button>
+  <span class="pill" id="clock"></span>
+</header>
+<nav id="tabs">
+  <button data-tab="live" class="on">Live</button>
+  <button data-tab="history">History</button>
+  <button data-tab="summary">Summary</button>
+  <button data-tab="whitelist">Whitelist</button>
+  <button data-tab="alerts">Alerts <span class="badge hide" id="alertBadge">0</span></button>
+  <button data-tab="settings">Settings</button>
+</nav>
+<main>
+
+ <section id="tab-live" class="panel">
+  <div class="stats">
+    <div class="stat"><b id="sSlips">–</b><span>slips today</span></div>
+    <div class="stat"><b id="sCars">–</b><span>cars</span></div>
+    <div class="stat"><b id="sBikes">–</b><span>bikes</span></div>
+    <div class="stat"><b id="sOther">–</b><span>other vehicles</span></div>
+    <div class="stat"><b id="sWl">–</b><span>whitelisted</span></div>
+    <div class="stat"><b id="sTotal">–</b><span>total slips ever</span></div>
+  </div>
+  <div class="live">
+    <div>
+      <div class="cams">
+        {% for c in cameras %}
+        <div class="cam"><img src="/stream/{{ c }}" alt="{{ c }}"><span class="tag" id="tag-{{ c }}">{{ c }}</span></div>
+        {% endfor %}
+      </div>
+      <h3>Latest activity</h3>
+      <div id="events" class="mute">Waiting for vehicles…</div>
+    </div>
+    <div>
+      <div class="row" style="margin-bottom:6px"><h3 style="margin:0">Slips to hand over <span class="pill" style="background:var(--brand)" id="pendCount">0</span></h3>
+        <label class="small mute" style="margin-left:auto"><input type="checkbox" id="showHanded" onchange="loadQueue()"> show handed over</label></div>
+      <div id="queue"></div>
+    </div>
+  </div>
+ </section>
+
+ <section id="tab-history" class="panel hide">
+  <div class="row">
+    <input id="hq" placeholder="Plate or slip no." size="14">
+    <select id="hkind"><option value="">All</option><option value="slip">Slips</option><option value="car">Cars</option><option value="bike">Bikes</option><option value="other">Other vehicles</option><option value="whitelisted">Whitelisted</option></select>
+    From <input type="date" id="hfrom"> To <input type="date" id="hto">
+    <label class="small"><input type="checkbox" id="hvoid"> include voided</label>
+    <button class="b pri" onclick="loadHistory(1)">Search</button>
+    <a class="b" id="expCsv">Export CSV</a><a class="b" id="expXlsx">Export Excel</a>
+  </div>
+  <div id="histNote" class="small mute"></div>
+  <table><thead><tr><th>Slip</th><th>Plate</th><th>Vehicle</th><th>Time</th><th>Camera</th><th>Pictures</th><th>Notes</th><th></th></tr></thead><tbody id="histBody"></tbody></table>
+  <div class="row" style="margin-top:12px"><button class="b" onclick="histPage(-1)">← Prev</button><span id="histPageInfo" class="mute"></span><button class="b" onclick="histPage(1)">Next →</button></div>
+ </section>
+
+ <section id="tab-summary" class="panel hide">
+  <div class="row"><input type="date" id="sumDate"><button class="b pri" onclick="loadSummary()">Show</button><span id="sumNote" class="small mute"></span></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>cars</span><span><i style="background:var(--green)"></i>bikes</span><span><i style="background:var(--amber)"></i>other</span><span><i style="background:var(--blue)"></i>whitelisted</span></div>
+  <div class="bars" id="bars"></div><div class="axis" id="axis"></div>
+  <h3 id="sumTotals"></h3>
+ </section>
+
+ <section id="tab-whitelist" class="panel hide">
+  <p class="mute small" style="margin-top:0">Whitelisted vehicles (staff, VIP…) never get a slip. Each arrival is still logged quietly.</p>
+  <div class="row">
+    <input id="wlPlate" placeholder="Plate e.g. LEA-1234" size="16"><input id="wlNote" placeholder="Note (optional)" size="22">
+    <button class="b pri" onclick="wlAdd()">Add to whitelist</button>
+  </div>
+  <div class="row">
+    <input type="file" id="wlFile" accept=".csv,.xlsx,.txt"><button class="b" onclick="wlImport()">Import list from file</button>
+    <span class="small mute">First column = plate, second column (optional) = note.</span>
+  </div>
+  <div class="row"><input id="wlSearch" placeholder="Search…" size="14" oninput="loadWl()"></div>
+  <table><thead><tr><th>Plate</th><th>Note</th><th>Added</th><th></th></tr></thead><tbody id="wlBody"></tbody></table>
+ </section>
+
+ <section id="tab-alerts" class="panel hide">
+  <div class="row"><label><input type="checkbox" id="alertAll" onchange="loadAlerts()"> show handled alerts too</label>
+    <button class="b" onclick="ackAll()">Mark all as handled</button></div>
+  <div id="alertList"></div>
+ </section>
+
+ <section id="tab-settings" class="panel hide">
+  <h3 style="margin-top:0">Slip printer</h3>
+  <div class="field"><label>Printing mode</label>
+    <select id="pMode" onchange="prRefresh()">
+      <option value="file">No printer yet (save slip pictures only)</option>
+      <option value="windows_gdi">Windows printer - normal driver</option>
+      <option value="windows_raw">Windows thermal printer - ESC/POS, auto-cut</option>
+      <option value="network">Network thermal printer (ESC/POS)</option>
+    </select></div>
+  <div class="field" id="rowName"><label>Windows printer</label><select id="pName"></select></div>
+  <div class="field" id="rowHost"><label>Printer address (IP)</label><input id="pHost" placeholder="192.168.1.50"></div>
+  <div class="field" id="rowPort"><label>Port</label><input id="pPort" value="9100" size="6"></div>
+  <div class="field"><label>Paper width</label><select id="pWidth"><option value="80">80 mm</option><option value="58">58 mm</option></select></div>
+  <div class="field" id="rowCut"><label>Cut paper after each slip</label><input type="checkbox" id="pCut"></div>
+  <div class="row"><button class="b pri" onclick="prSave()">Save</button><button class="b" onclick="prTest()">Print a test slip</button></div>
+  <p class="small mute">Tip: start with "Windows printer - normal driver". If you want faster printing with automatic paper cut, try the ESC/POS mode.
+     If a test slip comes out as strange characters, switch back to the normal driver mode.</p>
+ </section>
+</main>
+<div id="toast"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let tab='live', hPage=1, hTotal=0, hPer=25, soundOn=false, lastLoud='', lastBeep=0, knownSlips=new Set(), audio=null;
+
+function toast(msg){const t=$('toast');t.textContent=msg;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',4000)}
+async function api(path, method='GET', body, isForm){
+  const opt={method}; if(body){ if(isForm){opt.body=body}else{opt.headers={'Content-Type':'application/json'};opt.body=JSON.stringify(body)} }
+  const r = await fetch(path,opt); let j={}; try{j=await r.json()}catch(e){}
+  if(!r.ok) throw new Error(j.error||j.message||('Error '+r.status)); return j;
+}
+const act = async fn=>{try{await fn()}catch(e){toast(e.message)}};
+
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+function showTab(t){
+  tab=t; document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.tab===t));
+  document.querySelectorAll('main section').forEach(s=>s.classList.toggle('hide',s.id!=='tab-'+t));
+  if(t==='history')loadHistory(1); if(t==='summary'){ if(!$('sumDate').value)$('sumDate').value=new Date().toLocaleDateString('en-CA'); loadSummary(); }
+  if(t==='whitelist')loadWl(); if(t==='alerts')loadAlerts(); if(t==='settings')prLoad(); if(t==='live')loadQueue();
+}
+
+/* ---------- sound ---------- */
+function beep(){ if(!soundOn)return; try{ audio=audio||new (window.AudioContext||window.webkitAudioContext)();
+  [0,0.28,0.56].forEach(d=>{const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=880;o.connect(g);g.connect(audio.destination);
+    g.gain.setValueAtTime(0.25,audio.currentTime+d);g.gain.exponentialRampToValueAtTime(0.001,audio.currentTime+d+0.22);o.start(audio.currentTime+d);o.stop(audio.currentTime+d+0.24)}) }catch(e){} }
+function toggleSound(){ soundOn=!soundOn; $('soundBtn').textContent=soundOn?'🔔 Sound on':'🔕 Sound off'; if(soundOn)beep(); }
+
+/* ---------- status ---------- */
+async function refreshStatus(){
+  try{
+    const s = await api('/api/status'), st=s.stats;
+    $('sSlips').textContent=st.slips_today; $('sCars').textContent=st.cars_today; $('sBikes').textContent=st.bikes_today;
+    $('sOther').textContent=st.other_today; $('sWl').textContent=st.whitelisted_today; $('sTotal').textContent=st.total_slips;
+    $('pendCount').textContent=st.pending_handover;
+    const db=$('dbPill'); db.className='pill '+(s.db_online?'ok':'bad');
+    db.textContent = s.db_online ? 'database: connected' : ('database OFFLINE – saving locally'+(s.pending_writes?` (${s.pending_writes} waiting)`:''));
+    const pr=$('prPill'), p=s.printer; pr.className='pill '+(p.last_error?'bad':(p.mode==='file'?'warn':'ok'));
+    pr.textContent = p.last_error?'printer: PROBLEM': (p.mode==='file'?'printer: not set up':'printer: ready'+(p.queued?` (${p.queued} queued)`:''));
+    pr.title = p.last_error||'';
+    $('camPills').innerHTML = s.cameras.map(c=>`<span class="pill ${c.status==='online'?'ok':'bad'}">${esc(c.camera.replace('camera','cam '))}: ${esc(c.status)}</span> `).join('');
+    s.cameras.forEach(c=>{const t=$('tag-'+c.camera); if(t) t.textContent=`${c.status} · ${c.analysing?c.fps+' fps':'idle'}`+(c.last_plate?` · last: ${c.last_plate}`:'')});
+    const b=$('alertBadge'); b.textContent=s.unacked_alerts; b.classList.toggle('hide',!s.unacked_alerts);
+    $('events').innerHTML = s.events.length ? s.events.map(e=>`<div class="ev"><span class="dot ${esc(e.color)}"></span><span class="mute">${esc(e.time)}</span>
+        <span class="mute">${esc(e.camera.replace(/ \(.*\)/,''))}</span>${e.plate?`<span class="plate">${esc(e.plate)}</span>`:''}<span>${esc(e.reason)}</span></div>`).join('') : 'Waiting for vehicles…';
+    if(s.latest_loud_id && s.latest_loud_id!==lastLoud){ lastLoud=s.latest_loud_id; beep(); lastBeep=Date.now(); }
+    else if(s.loud_alerts>0 && Date.now()-lastBeep>8000){ beep(); lastBeep=Date.now(); }
+    if(tab==='live') loadQueue();
+  }catch(e){ $('dbPill').className='pill bad'; $('dbPill').textContent='cannot reach the program'; }
+  $('clock').textContent=new Date().toLocaleString();
+}
+setInterval(refreshStatus,1500); refreshStatus();
+setInterval(()=>{ if(tab==='alerts')loadAlerts(); },4000);
+
+/* ---------- slip queue ---------- */
+const thumb = e => (e.plate_img||e.snapshot) ? `<a href="/snapshots/${encodeURI(e.snapshot||e.plate_img)}" target="_blank"><img src="/snapshots/${encodeURI(e.plate_img||e.snapshot)}"></a>` : '';
+async function loadQueue(){
+  try{
+    const rows = await api('/api/queue'+($('showHanded').checked?'?handed=1':''));
+    $('queue').innerHTML = rows.length ? rows.map(e=>{
+      const fresh = knownSlips.size && !knownSlips.has(e.id) ? ' fresh' : ''; knownSlips.add(e.id);
+      return `<div class="slip${fresh}">${thumb(e)}<div class="grow"><div><span class="code">${esc(e.slip_code)}</span> <span class="plate">${esc(e.plate_display)}</span></div>
+      <div class="small mute">${esc(e.vehicle_type)} · ${esc(e.time.split(' ')[1])} · ${esc(e.camera)} · <span class="st ${esc(e.print_status)}" title="${esc(e.print_error)}">${esc(e.print_status==='saved'?'saved (no printer)':e.print_status)}</span></div></div>
+      <div class="acts">${e.handed_over?'<span class="small mute">handed over</span>':`<button class="b pri" onclick="handed('${e.id}')">Handed over</button>`}
+        <button class="b" onclick="reprint('${e.id}')">Reprint</button><button class="b" onclick="fixPlate('${e.id}','${esc(e.plate_display)}')">Fix plate</button>
+        <button class="b danger" onclick="voidSlip('${e.id}','${esc(e.slip_code)}')">Void</button></div></div>`}).join('')
+      : '<p class="mute small">No slips waiting. 🎉</p>';
+  }catch(e){}
+}
+const handed = id=>act(async()=>{ await api(`/api/entries/${id}/handed`,'POST',{value:true}); loadQueue(); refreshStatus(); });
+const reprint = id=>act(async()=>{ await api(`/api/entries/${id}/reprint`,'POST'); toast('Sent to the printer'); setTimeout(loadQueue,800); });
+const fixPlate = (id,p)=>act(async()=>{ const n=prompt('Correct plate number:',p); if(!n)return; await api(`/api/entries/${id}/edit_plate`,'POST',{plate:n}); toast('Plate corrected - press Reprint to print the corrected slip'); loadQueue(); if(tab==='history')loadHistory(hPage); });
+const voidSlip = (id,c)=>act(async()=>{ if(!confirm(`Void slip ${c}? It will no longer be counted.`))return; await api(`/api/entries/${id}/void`,'POST'); loadQueue(); refreshStatus(); if(tab==='history')loadHistory(hPage); });
+
+/* ---------- history ---------- */
+function histQuery(){return new URLSearchParams({q:$('hq').value,kind:$('hkind').value,from:$('hfrom').value,to:$('hto').value,voided:$('hvoid').checked?'1':'0'});}
+async function loadHistory(page){
+  hPage=page; const p=histQuery(); p.set('page',page); p.set('per',hPer);
+  await act(async()=>{
+    const d=await api('/api/history?'+p); hTotal=d.total;
+    $('histNote').textContent = d.complete ? `${d.total} record(s)` : '⚠ Database is offline – showing only the most recent records held in memory.';
+    $('histBody').innerHTML = d.rows.length ? d.rows.map(e=>`<tr style="${e.voided?'opacity:.5;text-decoration:line-through':''}">
+      <td>${e.kind==='slip'?`<a class="code" href="/slip/${e.id}" target="_blank">${esc(e.slip_code)}</a>`:'<span class="mute">whitelisted</span>'}</td>
+      <td><span class="plate">${esc(e.plate_display)}</span></td><td>${esc(e.vehicle_type)}</td><td>${esc(e.time)}</td><td>${esc(e.camera)}</td>
+      <td>${e.snapshot?`<a href="/snapshots/${encodeURI(e.snapshot)}" target="_blank">photo</a>`:'<span class="mute">–</span>'}</td>
+      <td class="small mute">${esc(e.notes)}</td>
+      <td style="white-space:nowrap">${e.kind==='slip'&&!e.voided?`<button class="b" onclick="reprint('${e.id}')">Reprint</button> <button class="b" onclick="fixPlate('${e.id}','${esc(e.plate_display)}')">Fix plate</button> <button class="b danger" onclick="voidSlip('${e.id}','${esc(e.slip_code)}')">Void</button>`:''}</td></tr>`).join('')
+      : '<tr><td colspan="8" class="mute">Nothing found.</td></tr>';
+    $('histPageInfo').textContent=`Page ${page} of ${Math.max(1,Math.ceil(d.total/hPer))}`;
+    $('expCsv').href='/api/export?format=csv&'+histQuery(); $('expXlsx').href='/api/export?format=xlsx&'+histQuery();
+  });
+}
+const histPage = d=>{const pages=Math.max(1,Math.ceil(hTotal/hPer)); const n=hPage+d; if(n>=1&&n<=pages) loadHistory(n);};
+
+/* ---------- summary ---------- */
+async function loadSummary(){ await act(async()=>{
+  const d=await api('/api/summary?date='+encodeURIComponent($('sumDate').value));
+  $('sumNote').textContent = d.complete?'':'⚠ Database offline - only recent records are included.';
+  const mx=Math.max(1,...d.hours.map(h=>h.car+h.bike+h.other+h.whitelisted));
+  $('bars').innerHTML=d.hours.map(h=>{const t=h.car+h.bike+h.other+h.whitelisted;
+    return `<div class="bar" title="${h.hour}:00 - ${t} entries"><i class="c" style="height:${h.car/mx*160}px"></i><i class="k" style="height:${h.bike/mx*160}px"></i><i class="o" style="height:${h.other/mx*160}px"></i><i class="w" style="height:${h.whitelisted/mx*160}px"></i>${t?`<em>${t}</em>`:''}</div>`}).join('');
+  $('axis').innerHTML=d.hours.map(h=>`<span>${h.hour}</span>`).join('');
+  const t=d.totals; $('sumTotals').textContent=`${d.date}: ${t.car+t.bike+t.other} slips (cars ${t.car}, bikes ${t.bike}, other ${t.other}) · whitelisted ${t.whitelisted}`;
+});}
+
+/* ---------- whitelist ---------- */
+async function loadWl(){ await act(async()=>{ const rows=await api('/api/whitelist?q='+encodeURIComponent($('wlSearch').value));
+  $('wlBody').innerHTML = rows.length ? rows.map(r=>`<tr><td><span class="plate">${esc(r.plate_display)}</span></td><td class="small mute">${esc(r.note)}</td><td class="small mute">${esc(r.added_at)}</td>
+    <td><button class="b danger" onclick="wlDel('${esc(r.plate)}')">Remove</button></td></tr>`).join('') : '<tr><td colspan="4" class="mute">Whitelist is empty.</td></tr>'; }); }
+const wlAdd = ()=>act(async()=>{ await api('/api/whitelist','POST',{plate:$('wlPlate').value,note:$('wlNote').value}); $('wlPlate').value='';$('wlNote').value=''; toast('Added'); loadWl(); });
+const wlDel = p=>act(async()=>{ await api('/api/whitelist/'+encodeURIComponent(p),'DELETE'); loadWl(); });
+const wlImport = ()=>act(async()=>{ const f=$('wlFile').files[0]; if(!f){toast('Choose a file first');return}
+  const fd=new FormData(); fd.append('file',f); const r=await api('/api/whitelist/import','POST',fd,true);
+  toast(`Added ${r.added} plate(s)`+(r.rejected_count?`; ${r.rejected_count} not valid: ${r.rejected.slice(0,5).join(', ')}`:'')); $('wlFile').value=''; loadWl(); });
+
+/* ---------- alerts ---------- */
+async function loadAlerts(){ await act(async()=>{ const rows=await api('/api/alerts'+($('alertAll').checked?'?all=1':''));
+  $('alertList').innerHTML = rows.length ? rows.map(a=>`<div class="alert ${esc(a.severity)} ${a.ack?'done':''}">
+    ${a.snapshot?`<a href="/snapshots/${encodeURI(a.snapshot)}" target="_blank"><img src="/snapshots/${encodeURI(a.snapshot)}"></a>`:''}
+    <div class="grow"><b>${esc(a.message)}</b><div class="small mute">${esc(a.time)} · ${a.severity==='danger'?'NEEDS ACTION':(a.severity==='info'?'please check':'')} ${esc(a.type.replace(/_/g,' '))}${a.camera?' · '+esc(a.camera):''}</div></div>
+    <div>${a.ack?'':`<button class="b" onclick="ack('${a.id}')">Handled</button>`}</div></div>`).join('') : '<p class="mute">No alerts 🎉</p>'; }); }
+const ack = id=>act(async()=>{ await api(`/api/alerts/${id}/ack`,'POST'); loadAlerts(); refreshStatus(); });
+const ackAll = ()=>act(async()=>{ await api('/api/alerts/ack_all','POST'); loadAlerts(); refreshStatus(); });
+
+/* ---------- printer settings ---------- */
+function prRefresh(){ const m=$('pMode').value; $('rowName').classList.toggle('hide',!(m==='windows_gdi'||m==='windows_raw'));
+  $('rowHost').classList.toggle('hide',m!=='network'); $('rowPort').classList.toggle('hide',m!=='network'); $('rowCut').classList.toggle('hide',!(m==='windows_raw'||m==='network')); }
+async function prLoad(){ await act(async()=>{ const d=await api('/api/printer'), s=d.settings;
+  $('pMode').value=s.mode; $('pHost').value=s.network_host||''; $('pPort').value=s.network_port||9100; $('pWidth').value=String(s.paper_width_mm); $('pCut').checked=!!s.auto_cut;
+  $('pName').innerHTML = (d.printers.length?d.printers:['(no Windows printers found)']).map(n=>`<option ${n===(s.name||d.default_printer)?'selected':''}>${esc(n)}</option>`).join('');
+  prRefresh(); }); }
+const prSave = ()=>act(async()=>{ const name=$('pName').value.startsWith('(')?'':$('pName').value;
+  await api('/api/printer','POST',{mode:$('pMode').value,name,network_host:$('pHost').value,network_port:$('pPort').value,paper_width_mm:$('pWidth').value,auto_cut:$('pCut').checked}); toast('Saved'); refreshStatus(); });
+const prTest = ()=>act(async()=>{ await prSave(); const r=await api('/api/printer/test','POST'); toast(r.message); });
+</script>
+</body>
+</html>

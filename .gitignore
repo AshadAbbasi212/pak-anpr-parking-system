@@ -1,0 +1,43 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and runtime data
+*.log
+data/parking.log
+data/cache.json
+data/pending.jsonl
+data/settings.json
+data/slip_counter.txt
+data/slips/
+data/snapshots/
+data/user_ground_truth_renamed/
+
+# Evaluation and scratch outputs
+eval_out/
+scratch/
+training_export/
+
+# Large generated / test video files and artifacts in footage
+footage/*.mp4
+footage/Cars_processed/
+footage/VID_*_snapshots/
+footage/VID_*_slips/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

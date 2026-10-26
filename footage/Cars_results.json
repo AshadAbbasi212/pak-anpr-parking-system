@@ -1,0 +1,6017 @@
+[
+  {
+    "filename": "DSC_0329.jpg",
+    "width": 2905,
+    "height": 1945,
+    "plates": [
+      {
+        "box": [
+          1354,
+          1208,
+          1745,
+          1419
+        ],
+        "confidence": 0.9132345914840698,
+        "plate": "LEF3503",
+        "display_plate": "LEF-3503",
+        "quality": 0.937400143851806,
+        "margin": 3.7961156368255615,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEF3503",
+        "crop_file": "DSC_0329_plate_1354_1208.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0339.jpg",
+    "width": 1761,
+    "height": 1193,
+    "plates": [
+      {
+        "box": [
+          405,
+          792,
+          598,
+          900
+        ],
+        "confidence": 0.915526270866394,
+        "plate": "MNE412",
+        "display_plate": "MNE-412",
+        "quality": 0.9736704729927518,
+        "margin": 4.873031139373779,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNE412",
+        "crop_file": "DSC_0339_plate_405_792.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0348.jpg",
+    "width": 2001,
+    "height": 1449,
+    "plates": [
+      {
+        "box": [
+          602,
+          932,
+          855,
+          1071
+        ],
+        "confidence": 0.9221357107162476,
+        "plate": "AGZ818",
+        "display_plate": "AGZ-818",
+        "quality": 0.9626579105598378,
+        "margin": 5.29705286026001,
+        "layout": "LLLNNN",
+        "bare_ocr": "AGZ818",
+        "crop_file": "DSC_0348_plate_602_932.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0349.JPG",
+    "width": 3785,
+    "height": 2913,
+    "plates": [
+      {
+        "box": [
+          826,
+          2180,
+          1078,
+          2335
+        ],
+        "confidence": 0.8776142597198486,
+        "plate": "MNR8577",
+        "display_plate": "MNR-8577",
+        "quality": 0.9383352420624468,
+        "margin": 3.3554391860961914,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNR8577",
+        "crop_file": "DSC_0349_plate_826_2180.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0357.jpg",
+    "width": 2201,
+    "height": 1433,
+    "plates": [
+      {
+        "box": [
+          380,
+          843,
+          606,
+          971
+        ],
+        "confidence": 0.9027450084686279,
+        "plate": "MNF811",
+        "display_plate": "MNF-811",
+        "quality": 0.9541765453654887,
+        "margin": 2.2151854038238525,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNF811",
+        "crop_file": "DSC_0357_plate_380_843.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0363.jpg",
+    "width": 3153,
+    "height": 2033,
+    "plates": [
+      {
+        "box": [
+          654,
+          1221,
+          1002,
+          1422
+        ],
+        "confidence": 0.8975381851196289,
+        "plate": "MNE254",
+        "display_plate": "MNE-254",
+        "quality": 0.9744044808956496,
+        "margin": 4.424981117248535,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNE254",
+        "crop_file": "DSC_0363_plate_654_1221.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0367.jpg",
+    "width": 2617,
+    "height": 1473,
+    "plates": [
+      {
+        "box": [
+          508,
+          947,
+          725,
+          1079
+        ],
+        "confidence": 0.9153804779052734,
+        "plate": "AES290",
+        "display_plate": "AES-290",
+        "quality": 0.9623421203067096,
+        "margin": 5.509455680847168,
+        "layout": "LLLNNN",
+        "bare_ocr": "AES290",
+        "crop_file": "DSC_0367_plate_508_947.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0399.jpg",
+    "width": 2017,
+    "height": 1665,
+    "plates": [
+      {
+        "box": [
+          557,
+          1025,
+          847,
+          1183
+        ],
+        "confidence": 0.915198802947998,
+        "plate": "LEE9091",
+        "display_plate": "LEE-9091",
+        "quality": 0.9471794909611246,
+        "margin": 3.70281982421875,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE9091",
+        "crop_file": "DSC_0399_plate_557_1025.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0402.jpg",
+    "width": 1969,
+    "height": 1217,
+    "plates": [
+      {
+        "box": [
+          437,
+          768,
+          674,
+          902
+        ],
+        "confidence": 0.9177511930465698,
+        "plate": "LED7",
+        "display_plate": "LED-7",
+        "quality": 0.921744219981393,
+        "margin": 2.1903884410858154,
+        "layout": "LLLN",
+        "bare_ocr": "LED7",
+        "crop_file": "DSC_0402_plate_437_768.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0404.jpg",
+    "width": 1273,
+    "height": 1121,
+    "plates": [
+      {
+        "box": [
+          273,
+          791,
+          494,
+          878
+        ],
+        "confidence": 0.9059865474700928,
+        "plate": "MN2262",
+        "display_plate": "MN-2262",
+        "quality": 0.9360070185588204,
+        "margin": 3.720378875732422,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN2262",
+        "crop_file": "DSC_0404_plate_273_791.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0427.jpg",
+    "width": 3113,
+    "height": 1873,
+    "plates": [
+      {
+        "box": [
+          491,
+          1245,
+          792,
+          1412
+        ],
+        "confidence": 0.8922879695892334,
+        "plate": "LEF1981",
+        "display_plate": "LEF-1981",
+        "quality": 0.9385398063065056,
+        "margin": 3.555983543395996,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEF1981",
+        "crop_file": "DSC_0427_plate_491_1245.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0450.jpg",
+    "width": 1017,
+    "height": 809,
+    "plates": [
+      {
+        "box": [
+          425,
+          503,
+          582,
+          586
+        ],
+        "confidence": 0.9062666893005371,
+        "plate": "BF373",
+        "display_plate": "BF-373",
+        "quality": 0.9551745857806714,
+        "margin": 4.574961185455322,
+        "layout": "LLNNN",
+        "bare_ocr": "BF373",
+        "crop_file": "DSC_0450_plate_425_503.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0453.jpg",
+    "width": 2345,
+    "height": 1537,
+    "plates": [
+      {
+        "box": [
+          534,
+          934,
+          817,
+          1083
+        ],
+        "confidence": 0.9116770625114441,
+        "plate": "MNZ6161",
+        "display_plate": "MNZ-6161",
+        "quality": 0.9587011750282836,
+        "margin": 5.05526876449585,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNZ6161",
+        "crop_file": "DSC_0453_plate_534_934.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0456.jpg",
+    "width": 1025,
+    "height": 937,
+    "plates": [
+      {
+        "box": [
+          335,
+          594,
+          502,
+          682
+        ],
+        "confidence": 0.902420163154602,
+        "plate": "AAS176",
+        "display_plate": "AAS-176",
+        "quality": 0.9641517959083523,
+        "margin": 5.810774803161621,
+        "layout": "LLLNNN",
+        "bare_ocr": "AAS176",
+        "crop_file": "DSC_0456_plate_335_594.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0468.jpg",
+    "width": 1177,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          331,
+          564,
+          487,
+          649
+        ],
+        "confidence": 0.9170002937316895,
+        "plate": "EF562",
+        "display_plate": "EF-562",
+        "quality": 0.9233676430500519,
+        "margin": 3.6321417868137362,
+        "layout": "LLNNN",
+        "bare_ocr": "EF562",
+        "crop_file": "DSC_0468_plate_331_564.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0470.jpg",
+    "width": 1769,
+    "height": 1593,
+    "plates": [
+      {
+        "box": [
+          482,
+          1017,
+          740,
+          1164
+        ],
+        "confidence": 0.9115354418754578,
+        "plate": "MNC515",
+        "display_plate": "MNC-515",
+        "quality": 0.9757579834666534,
+        "margin": 5.066216945648193,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNC515",
+        "crop_file": "DSC_0470_plate_482_1017.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0486.jpg",
+    "width": 2143,
+    "height": 1201,
+    "plates": [
+      {
+        "box": [
+          415,
+          740,
+          621,
+          851
+        ],
+        "confidence": 0.9061418771743774,
+        "plate": "ACC074",
+        "display_plate": "ACC-074",
+        "quality": 0.9619631238278067,
+        "margin": 5.451003551483154,
+        "layout": "LLLNNN",
+        "bare_ocr": "ACC074",
+        "crop_file": "DSC_0486_plate_415_740.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0500.jpg",
+    "width": 1680,
+    "height": 1192,
+    "plates": [
+      {
+        "box": [
+          468,
+          717,
+          688,
+          838
+        ],
+        "confidence": 0.9122847318649292,
+        "plate": "MNA543",
+        "display_plate": "MNA-543",
+        "quality": 0.7477295726047507,
+        "margin": 2.1286187171936035,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNA543",
+        "crop_file": "DSC_0500_plate_468_717.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0510.jpg",
+    "width": 3745,
+    "height": 2337,
+    "plates": [
+      {
+        "box": [
+          680,
+          1552,
+          1110,
+          1798
+        ],
+        "confidence": 0.9128721952438354,
+        "plate": "ADB154",
+        "display_plate": "ADB-154",
+        "quality": 0.9631121285078295,
+        "margin": 5.189311981201172,
+        "layout": "LLLNNN",
+        "bare_ocr": "ADB154",
+        "crop_file": "DSC_0510_plate_680_1552.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0517.jpg",
+    "width": 1081,
+    "height": 913,
+    "plates": [
+      {
+        "box": [
+          458,
+          579,
+          625,
+          667
+        ],
+        "confidence": 0.9097843170166016,
+        "plate": "MNA2272",
+        "display_plate": "MNA-2272",
+        "quality": 0.953670432852279,
+        "margin": 4.475616455078125,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA2272",
+        "crop_file": "DSC_0517_plate_458_579.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0533.jpg",
+    "width": 2970,
+    "height": 2169,
+    "plates": [
+      {
+        "box": [
+          1773,
+          1303,
+          2071,
+          1500
+        ],
+        "confidence": 0.8672094345092773,
+        "plate": "LEC566",
+        "display_plate": "LEC-566",
+        "quality": 0.9486004711811016,
+        "margin": 3.210045099258423,
+        "layout": "LLLNNN",
+        "bare_ocr": "LEC566",
+        "crop_file": "DSC_0533_plate_1773_1303.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0543.jpg",
+    "width": 3543,
+    "height": 2543,
+    "plates": [
+      {
+        "box": [
+          2427,
+          1638,
+          3012,
+          1964
+        ],
+        "confidence": 0.9114338159561157,
+        "plate": "LED2236",
+        "display_plate": "LED-2236",
+        "quality": 0.8113010757844158,
+        "margin": 2.452951431274414,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED2236",
+        "crop_file": "DSC_0543_plate_2427_1638.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0549.jpg",
+    "width": 1969,
+    "height": 1633,
+    "plates": [
+      {
+        "box": [
+          1188,
+          1075,
+          1382,
+          1205
+        ],
+        "confidence": 0.9139282703399658,
+        "plate": "MN314",
+        "display_plate": "MN-314",
+        "quality": 0.9550187932254862,
+        "margin": 3.4797823429107666,
+        "layout": "LLNNN",
+        "bare_ocr": "MN314",
+        "crop_file": "DSC_0549_plate_1188_1075.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0550.jpg",
+    "width": 1665,
+    "height": 1273,
+    "plates": [
+      {
+        "box": [
+          841,
+          776,
+          1066,
+          896
+        ],
+        "confidence": 0.9169250726699829,
+        "plate": "LEB5542",
+        "display_plate": "LEB-5542",
+        "quality": 0.9624803020075361,
+        "margin": 4.366360187530518,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB5542",
+        "crop_file": "DSC_0550_plate_841_776.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0552.jpg",
+    "width": 1745,
+    "height": 1361,
+    "plates": [
+      {
+        "box": [
+          953,
+          830,
+          1199,
+          961
+        ],
+        "confidence": 0.9220768213272095,
+        "plate": "LEE5559",
+        "display_plate": "LEE-5559",
+        "quality": 0.9648801564564214,
+        "margin": 4.315662384033203,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE5559",
+        "crop_file": "DSC_0552_plate_953_830.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0553.jpg",
+    "width": 2721,
+    "height": 1873,
+    "plates": [
+      {
+        "box": [
+          1592,
+          1155,
+          1961,
+          1356
+        ],
+        "confidence": 0.923605740070343,
+        "plate": "LEE5559",
+        "display_plate": "LEE-5559",
+        "quality": 0.9661378368400755,
+        "margin": 4.464686393737793,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE5559",
+        "crop_file": "DSC_0553_plate_1592_1155.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0556.jpg",
+    "width": 993,
+    "height": 777,
+    "plates": [
+      {
+        "box": [
+          537,
+          470,
+          686,
+          549
+        ],
+        "confidence": 0.901198148727417,
+        "plate": "LEA5989",
+        "display_plate": "LEA-5989",
+        "quality": 0.9356767504520996,
+        "margin": 4.25112247467041,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA5989",
+        "crop_file": "DSC_0556_plate_537_470.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0558.jpg",
+    "width": 801,
+    "height": 641,
+    "plates": [
+      {
+        "box": [
+          400,
+          384,
+          516,
+          446
+        ],
+        "confidence": 0.9027507305145264,
+        "plate": "LEB121",
+        "display_plate": "LEB-121",
+        "quality": 0.9552905023865084,
+        "margin": 4.192053318023682,
+        "layout": "LLLNNN",
+        "bare_ocr": "LEB121",
+        "crop_file": "DSC_0558_plate_400_384.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0561.jpg",
+    "width": 705,
+    "height": 673,
+    "plates": [
+      {
+        "box": [
+          302,
+          431,
+          406,
+          475
+        ],
+        "confidence": 0.8896200656890869,
+        "plate": "MN1821",
+        "display_plate": "MN-1821",
+        "quality": 0.9549606347762396,
+        "margin": 4.805582046508789,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN1821",
+        "crop_file": "DSC_0561_plate_302_431.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0567.jpg",
+    "width": 1257,
+    "height": 1225,
+    "plates": [
+      {
+        "box": [
+          599,
+          745,
+          795,
+          850
+        ],
+        "confidence": 0.8830212950706482,
+        "plate": "MNA54",
+        "display_plate": "MNA-54",
+        "quality": 0.9702422758102384,
+        "margin": 4.607852935791016,
+        "layout": "LLLNN",
+        "bare_ocr": "MNA54",
+        "crop_file": "DSC_0567_plate_599_745.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0571.jpg",
+    "width": 2623,
+    "height": 1945,
+    "plates": [
+      {
+        "box": [
+          2095,
+          1148,
+          2420,
+          1327
+        ],
+        "confidence": 0.9156575202941895,
+        "plate": "LEC5104",
+        "display_plate": "LEC-5104",
+        "quality": 0.9564293921236489,
+        "margin": 4.42547607421875,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC5104",
+        "crop_file": "DSC_0571_plate_2095_1148.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0576.jpg",
+    "width": 1745,
+    "height": 1193,
+    "plates": [
+      {
+        "box": [
+          1033,
+          714,
+          1253,
+          832
+        ],
+        "confidence": 0.926984429359436,
+        "plate": "MN3113",
+        "display_plate": "MN-3113",
+        "quality": 0.9505334882451627,
+        "margin": 3.941089153289795,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN3113",
+        "crop_file": "DSC_0576_plate_1033_714.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0577.jpg",
+    "width": 1817,
+    "height": 1313,
+    "plates": [
+      {
+        "box": [
+          1043,
+          740,
+          1272,
+          859
+        ],
+        "confidence": 0.9029864072799683,
+        "plate": "LEB7814",
+        "display_plate": "LEB-7814",
+        "quality": 0.9607359321686412,
+        "margin": 4.685039043426514,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB7814",
+        "crop_file": "DSC_0577_plate_1043_740.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0578.jpg",
+    "width": 993,
+    "height": 897,
+    "plates": [
+      {
+        "box": [
+          465,
+          540,
+          566,
+          608
+        ],
+        "confidence": 0.9211829900741577,
+        "plate": "MN5125",
+        "display_plate": "MN-5125",
+        "quality": 0.9035898221497228,
+        "margin": 4.053979873657227,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN5125",
+        "crop_file": "DSC_0578_plate_465_540.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0581.jpg",
+    "width": 1649,
+    "height": 1209,
+    "plates": [
+      {
+        "box": [
+          978,
+          715,
+          1133,
+          818
+        ],
+        "confidence": 0.9041937589645386,
+        "plate": "LEA2208",
+        "display_plate": "LEA-2208",
+        "quality": 0.9095196257167764,
+        "margin": 3.019057512283325,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA2208",
+        "crop_file": "DSC_0581_plate_978_715.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0583.jpg",
+    "width": 3399,
+    "height": 2409,
+    "plates": [
+      {
+        "box": [
+          2116,
+          1575,
+          2574,
+          1824
+        ],
+        "confidence": 0.89582359790802,
+        "plate": "MN2906",
+        "display_plate": "MN-2906",
+        "quality": 0.9448331988326442,
+        "margin": 3.5817763805389404,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN2906",
+        "crop_file": "DSC_0583_plate_2116_1575.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0585.jpg",
+    "width": 1385,
+    "height": 1089,
+    "plates": [
+      {
+        "box": [
+          694,
+          716,
+          831,
+          805
+        ],
+        "confidence": 0.8663889765739441,
+        "plate": "MNV3746",
+        "display_plate": "MNV-3746",
+        "quality": 0.6626458356838368,
+        "margin": 0.32828593254089355,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNV3746",
+        "crop_file": "DSC_0585_plate_694_716.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0587.jpg",
+    "width": 1313,
+    "height": 1209,
+    "plates": [
+      {
+        "box": [
+          614,
+          778,
+          772,
+          880
+        ],
+        "confidence": 0.9222692251205444,
+        "plate": "MNA4164",
+        "display_plate": "MNA-4164",
+        "quality": 0.9484479803630305,
+        "margin": 4.077254772186279,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA4164",
+        "crop_file": "DSC_0587_plate_614_778.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0588.jpg",
+    "width": 2423,
+    "height": 1801,
+    "plates": [
+      {
+        "box": [
+          1826,
+          1053,
+          2096,
+          1233
+        ],
+        "confidence": 0.8943000435829163,
+        "plate": "LEH1553",
+        "display_plate": "LEH-1553",
+        "quality": 0.9305101498578539,
+        "margin": 3.964221239089966,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH1553",
+        "crop_file": "DSC_0588_plate_1826_1053.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0848.JPG",
+    "width": 1761,
+    "height": 1369,
+    "plates": [
+      {
+        "box": [
+          992,
+          891,
+          1204,
+          969
+        ],
+        "confidence": 0.8973851799964905,
+        "plate": "MNX645",
+        "display_plate": "MNX-645",
+        "quality": 0.9340680187325623,
+        "margin": 2.5529236793518066,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNX645",
+        "crop_file": "DSC_0848_plate_992_891.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0849.JPG",
+    "width": 1769,
+    "height": 1417,
+    "plates": [
+      {
+        "box": [
+          928,
+          896,
+          1074,
+          996
+        ],
+        "confidence": 0.8870911598205566,
+        "plate": "MNW5665",
+        "display_plate": "MNW-5665",
+        "quality": 0.9525522813563488,
+        "margin": 4.173205375671387,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNW5665",
+        "crop_file": "DSC_0849_plate_928_896.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0850.JPG",
+    "width": 2401,
+    "height": 1601,
+    "plates": [
+      {
+        "box": [
+          1311,
+          1013,
+          1567,
+          1149
+        ],
+        "confidence": 0.9183982610702515,
+        "plate": "MN720",
+        "display_plate": "MN-720",
+        "quality": 0.9589107328952318,
+        "margin": 3.9662859439849854,
+        "layout": "LLNNN",
+        "bare_ocr": "MN720",
+        "crop_file": "DSC_0850_plate_1311_1013.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0851.jpg",
+    "width": 2105,
+    "height": 1377,
+    "plates": [
+      {
+        "box": [
+          1118,
+          903,
+          1323,
+          1046
+        ],
+        "confidence": 0.9190548658370972,
+        "plate": "MNA18877",
+        "display_plate": "MNA-18-877",
+        "quality": 0.9337415598396236,
+        "margin": 3.446369230747223,
+        "layout": "LLLNNNNN",
+        "bare_ocr": "MNA18877",
+        "crop_file": "DSC_0851_plate_1118_903.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0852.JPG",
+    "width": 1841,
+    "height": 1313,
+    "plates": [
+      {
+        "box": [
+          1033,
+          883,
+          1261,
+          1012
+        ],
+        "confidence": 0.9079121351242065,
+        "plate": "ACD946",
+        "display_plate": "ACD-946",
+        "quality": 0.9599705101508936,
+        "margin": 5.349583148956299,
+        "layout": "LLLNNN",
+        "bare_ocr": "ACD946",
+        "crop_file": "DSC_0852_plate_1033_883.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0853.JPG",
+    "width": 1657,
+    "height": 1225,
+    "plates": [
+      {
+        "box": [
+          1061,
+          835,
+          1261,
+          941
+        ],
+        "confidence": 0.9050222635269165,
+        "plate": "ADS654",
+        "display_plate": "ADS-654",
+        "quality": 0.9483921334317406,
+        "margin": 2.798158645629883,
+        "layout": "LLLNNN",
+        "bare_ocr": "ADS654",
+        "crop_file": "DSC_0853_plate_1061_835.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0854.JPG",
+    "width": 3465,
+    "height": 2273,
+    "plates": [
+      {
+        "box": [
+          2135,
+          1389,
+          2544,
+          1611
+        ],
+        "confidence": 0.9200339317321777,
+        "plate": "MLL9177",
+        "display_plate": "MLL-9177",
+        "quality": 0.9041804781747836,
+        "margin": 3.2828469276428223,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MLL9177",
+        "crop_file": "DSC_0854_plate_2135_1389.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0855.JPG",
+    "width": 2633,
+    "height": 1921,
+    "plates": [
+      {
+        "box": [
+          1584,
+          1228,
+          1907,
+          1409
+        ],
+        "confidence": 0.9216080904006958,
+        "plate": "MNA6400",
+        "display_plate": "MNA-6400",
+        "quality": 0.9643164828751206,
+        "margin": 4.946583271026611,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA6400",
+        "crop_file": "DSC_0855_plate_1584_1228.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0856.JPG",
+    "width": 2865,
+    "height": 1897,
+    "plates": [
+      {
+        "box": [
+          1801,
+          1163,
+          2157,
+          1359
+        ],
+        "confidence": 0.9163779020309448,
+        "plate": "AVK062",
+        "display_plate": "AVK-062",
+        "quality": 0.9408999134273008,
+        "margin": 3.908672332763672,
+        "layout": "LLLNNN",
+        "bare_ocr": "AVK062",
+        "crop_file": "DSC_0856_plate_1801_1163.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0858.JPG",
+    "width": 1641,
+    "height": 1157,
+    "plates": [
+      {
+        "box": [
+          974,
+          706,
+          1187,
+          820
+        ],
+        "confidence": 0.9087924957275391,
+        "plate": "AGB389",
+        "display_plate": "AGB-389",
+        "quality": 0.9597119836709133,
+        "margin": 4.899046421051025,
+        "layout": "LLLNNN",
+        "bare_ocr": "AGB389",
+        "crop_file": "DSC_0858_plate_974_706.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0859.JPG",
+    "width": 1417,
+    "height": 1153,
+    "plates": [
+      {
+        "box": [
+          744,
+          738,
+          887,
+          834
+        ],
+        "confidence": 0.8928765058517456,
+        "plate": "LEC3393",
+        "display_plate": "LEC-3393",
+        "quality": 0.7835146785980877,
+        "margin": 1.9733630418777466,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC3393",
+        "crop_file": "DSC_0859_plate_744_738.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0860.JPG",
+    "width": 1329,
+    "height": 1281,
+    "plates": [
+      {
+        "box": [
+          843,
+          928,
+          943,
+          1004
+        ],
+        "confidence": 0.8643283247947693,
+        "plate": "MNS2838",
+        "display_plate": "MNS-2838",
+        "quality": 0.8340765440531369,
+        "margin": 1.4039638042449951,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNS2838",
+        "crop_file": "DSC_0860_plate_843_928.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0860x.jpg",
+    "width": 635,
+    "height": 573,
+    "plates": [
+      {
+        "box": [
+          271,
+          377,
+          370,
+          428
+        ],
+        "confidence": 0.9020152688026428,
+        "plate": "AYT517",
+        "display_plate": "AYT-517",
+        "quality": 0.962145951689406,
+        "margin": 4.428948402404785,
+        "layout": "LLLNNN",
+        "bare_ocr": "AYT517",
+        "crop_file": "DSC_0860x_plate_271_377.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0861.JPG",
+    "width": 3129,
+    "height": 2841,
+    "plates": [
+      {
+        "box": [
+          1820,
+          2128,
+          2098,
+          2277
+        ],
+        "confidence": 0.7653391361236572,
+        "plate": "LLD6475",
+        "display_plate": "LLD-6475",
+        "quality": 0.6618125989869986,
+        "margin": 0.06399273872375488,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LLD6475",
+        "crop_file": "DSC_0861_plate_1820_2128.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0862.JPG",
+    "width": 2177,
+    "height": 1633,
+    "plates": [
+      {
+        "box": [
+          1262,
+          1118,
+          1559,
+          1273
+        ],
+        "confidence": 0.9068667888641357,
+        "plate": "LEA361",
+        "display_plate": "LEA-361",
+        "quality": 0.9692395921740268,
+        "margin": 5.108695030212402,
+        "layout": "LLLNNN",
+        "bare_ocr": "LEA361",
+        "crop_file": "DSC_0862_plate_1262_1118.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0863.JPG",
+    "width": 1793,
+    "height": 1745,
+    "plates": [
+      {
+        "box": [
+          1139,
+          1372,
+          1277,
+          1430
+        ],
+        "confidence": 0.8181440234184265,
+        "plate": "L632",
+        "display_plate": "L-632",
+        "quality": 0.52870269354541,
+        "margin": 0.38843441009521484,
+        "layout": "LNNN",
+        "bare_ocr": "1632",
+        "crop_file": "DSC_0863_plate_1139_1372.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0864.JPG",
+    "width": 1937,
+    "height": 1505,
+    "plates": [
+      {
+        "box": [
+          1030,
+          1030,
+          1257,
+          1180
+        ],
+        "confidence": 0.9174073934555054,
+        "plate": "MNF679",
+        "display_plate": "MNF-679",
+        "quality": 0.9214819726042349,
+        "margin": 2.7908434867858887,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNF679",
+        "crop_file": "DSC_0864_plate_1030_1030.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0865.JPG",
+    "width": 1905,
+    "height": 1345,
+    "plates": [
+      {
+        "box": [
+          1089,
+          839,
+          1356,
+          981
+        ],
+        "confidence": 0.9199576377868652,
+        "plate": "LRG7450",
+        "display_plate": "LRG-7450",
+        "quality": 0.9070433158098354,
+        "margin": 1.7259550094604492,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LRG7450",
+        "crop_file": "DSC_0865_plate_1089_839.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0866.JPG",
+    "width": 3687,
+    "height": 3417,
+    "plates": [
+      {
+        "box": [
+          2822,
+          2261,
+          3116,
+          2468
+        ],
+        "confidence": 0.8655188083648682,
+        "plate": "MNS2853",
+        "display_plate": "MNS-2853",
+        "quality": 0.747323368476111,
+        "margin": 2.0853965282440186,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNS2853",
+        "crop_file": "DSC_0866_plate_2822_2261.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0866x.jpg",
+    "width": 1001,
+    "height": 953,
+    "plates": [
+      {
+        "box": [
+          456,
+          575,
+          614,
+          660
+        ],
+        "confidence": 0.9055535793304443,
+        "plate": "AEH344",
+        "display_plate": "AEH-344",
+        "quality": 0.9584580393591365,
+        "margin": 5.101602077484131,
+        "layout": "LLLNNN",
+        "bare_ocr": "AEH344",
+        "crop_file": "DSC_0866x_plate_456_575.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0868.JPG",
+    "width": 1441,
+    "height": 977,
+    "plates": [
+      {
+        "box": [
+          765,
+          649,
+          943,
+          745
+        ],
+        "confidence": 0.9137071371078491,
+        "plate": "BGJ076",
+        "display_plate": "BGJ-076",
+        "quality": 0.9614421576490967,
+        "margin": 5.505427837371826,
+        "layout": "LLLNNN",
+        "bare_ocr": "BGJ076",
+        "crop_file": "DSC_0868_plate_765_649.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0868x.jpg",
+    "width": 1233,
+    "height": 1257,
+    "plates": [
+      {
+        "box": [
+          605,
+          839,
+          761,
+          933
+        ],
+        "confidence": 0.8996765613555908,
+        "plate": "MNT1944",
+        "display_plate": "MNT-1944",
+        "quality": 0.7104210787256421,
+        "margin": 0.32329821586608887,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNT1944",
+        "crop_file": "DSC_0868x_plate_605_839.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0869.JPG",
+    "width": 1921,
+    "height": 1265,
+    "plates": [
+      {
+        "box": [
+          1103,
+          742,
+          1309,
+          821
+        ],
+        "confidence": 0.8982808589935303,
+        "plate": "LE3426",
+        "display_plate": "LE-3426",
+        "quality": 0.5314668635590941,
+        "margin": 1.0679680615663525,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE3426A",
+        "crop_file": "DSC_0869_plate_1103_742.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0870.JPG",
+    "width": 1209,
+    "height": 953,
+    "plates": [
+      {
+        "box": [
+          695,
+          542,
+          844,
+          624
+        ],
+        "confidence": 0.9109761714935303,
+        "plate": "AFB769",
+        "display_plate": "AFB-769",
+        "quality": 0.9614958280404351,
+        "margin": 4.558443546295166,
+        "layout": "LLLNNN",
+        "bare_ocr": "AFB769",
+        "crop_file": "DSC_0870_plate_695_542.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0870x.jpg",
+    "width": 993,
+    "height": 697,
+    "plates": [
+      {
+        "box": [
+          477,
+          428,
+          602,
+          494
+        ],
+        "confidence": 0.9242061376571655,
+        "plate": "LEC7400",
+        "display_plate": "LEC-7400",
+        "quality": 0.5019049352783207,
+        "margin": 0.040935397148132324,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC7400",
+        "crop_file": "DSC_0870x_plate_477_428.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0871.JPG",
+    "width": 3385,
+    "height": 2193,
+    "plates": [
+      {
+        "box": [
+          2185,
+          1334,
+          2633,
+          1586
+        ],
+        "confidence": 0.9239519834518433,
+        "plate": "LEC7419",
+        "display_plate": "LEC-7419",
+        "quality": 0.906216898605649,
+        "margin": 2.742614507675171,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC7419",
+        "crop_file": "DSC_0871_plate_2185_1334.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0872.JPG",
+    "width": 1665,
+    "height": 1369,
+    "plates": [
+      {
+        "box": [
+          926,
+          843,
+          1173,
+          972
+        ],
+        "confidence": 0.9195407032966614,
+        "plate": "LEH3236",
+        "display_plate": "LEH-3236",
+        "quality": 0.9285891484771308,
+        "margin": 3.538026809692383,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH3236",
+        "crop_file": "DSC_0872_plate_926_843.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0873.JPG",
+    "width": 1649,
+    "height": 1265,
+    "plates": [
+      {
+        "box": [
+          823,
+          850,
+          1044,
+          968
+        ],
+        "confidence": 0.8647732138633728,
+        "plate": "MLH8882",
+        "display_plate": "MLH-8882",
+        "quality": 0.9405216665790811,
+        "margin": 4.29673957824707,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MLH8882",
+        "crop_file": "DSC_0873_plate_823_850.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0874.JPG",
+    "width": 1153,
+    "height": 977,
+    "plates": [
+      {
+        "box": [
+          643,
+          543,
+          798,
+          625
+        ],
+        "confidence": 0.8941428661346436,
+        "plate": "LEE6907",
+        "display_plate": "LEE-6907",
+        "quality": 0.9123559551793458,
+        "margin": 3.094007730484009,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE6907",
+        "crop_file": "DSC_0874_plate_643_543.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0874x.jpg",
+    "width": 593,
+    "height": 617,
+    "plates": [
+      {
+        "box": [
+          281,
+          378,
+          362,
+          415
+        ],
+        "confidence": 0.8738448619842529,
+        "plate": "LEB464",
+        "display_plate": "LEB-464",
+        "quality": 0.6693593574362674,
+        "margin": 0.8015235662460327,
+        "layout": "LLLNNN",
+        "bare_ocr": "LEB464",
+        "crop_file": "DSC_0874x_plate_281_378.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0875.JPG",
+    "width": 1281,
+    "height": 897,
+    "plates": [
+      {
+        "box": [
+          638,
+          556,
+          814,
+          649
+        ],
+        "confidence": 0.8873311281204224,
+        "plate": "LB999",
+        "display_plate": "LB-999",
+        "quality": 0.2073623595189449,
+        "margin": 0.06534957885742188,
+        "layout": "LLNNN",
+        "bare_ocr": "19999",
+        "crop_file": "DSC_0875_plate_638_556.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0876.JPG",
+    "width": 1305,
+    "height": 993,
+    "plates": [
+      {
+        "box": [
+          772,
+          616,
+          934,
+          705
+        ],
+        "confidence": 0.9331754446029663,
+        "plate": "LE29756",
+        "display_plate": "LE-29-756",
+        "quality": 0.6976202059660728,
+        "margin": 0.15513514876365697,
+        "layout": "LLNNNNN",
+        "bare_ocr": "LE2975I",
+        "crop_file": "DSC_0876_plate_772_616.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0877.JPG",
+    "width": 1225,
+    "height": 1049,
+    "plates": [
+      {
+        "box": [
+          612,
+          631,
+          803,
+          706
+        ],
+        "confidence": 0.911471962928772,
+        "plate": "LXR8545",
+        "display_plate": "LXR-8545",
+        "quality": 0.8747150996291181,
+        "margin": 0.513824462890625,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LXR8545",
+        "crop_file": "DSC_0877_plate_612_631.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0878.JPG",
+    "width": 1665,
+    "height": 1345,
+    "plates": [
+      {
+        "box": [
+          908,
+          877,
+          1123,
+          994
+        ],
+        "confidence": 0.9190617203712463,
+        "plate": "LE6223",
+        "display_plate": "LE-6223",
+        "quality": 0.970173708080314,
+        "margin": 4.34052038192749,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE6223",
+        "crop_file": "DSC_0878_plate_908_877.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0878x.jpg",
+    "width": 1105,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          572,
+          486,
+          729,
+          568
+        ],
+        "confidence": 0.8984086513519287,
+        "plate": "LEB5040",
+        "display_plate": "LEB-5040",
+        "quality": 0.9570379369074373,
+        "margin": 4.217244625091553,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB5040",
+        "crop_file": "DSC_0878x_plate_572_486.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0879.JPG",
+    "width": 1825,
+    "height": 1569,
+    "plates": [
+      {
+        "box": [
+          1057,
+          1036,
+          1331,
+          1184
+        ],
+        "confidence": 0.9198734760284424,
+        "plate": "LEB5040",
+        "display_plate": "LEB-5040",
+        "quality": 0.9550407545858667,
+        "margin": 4.244731903076172,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB5040",
+        "crop_file": "DSC_0879_plate_1057_1036.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0880.JPG",
+    "width": 1313,
+    "height": 977,
+    "plates": [
+      {
+        "box": [
+          734,
+          565,
+          897,
+          654
+        ],
+        "confidence": 0.9088784456253052,
+        "plate": "LEF7922",
+        "display_plate": "LEF-7922",
+        "quality": 0.9556396096818773,
+        "margin": 4.239799976348877,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEF7922",
+        "crop_file": "DSC_0880_plate_734_565.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0882.JPG",
+    "width": 1209,
+    "height": 1153,
+    "plates": [
+      {
+        "box": [
+          566,
+          710,
+          726,
+          813
+        ],
+        "confidence": 0.9084802865982056,
+        "plate": "MNA3116",
+        "display_plate": "MNA-3116",
+        "quality": 0.7182334529123297,
+        "margin": 1.1965372562408447,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA3116",
+        "crop_file": "DSC_0882_plate_566_710.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0883.JPG",
+    "width": 1289,
+    "height": 1217,
+    "plates": [
+      {
+        "box": [
+          569,
+          804,
+          740,
+          916
+        ],
+        "confidence": 0.8927567005157471,
+        "plate": "LEE179",
+        "display_plate": "LEE-179",
+        "quality": 0.8744935020883039,
+        "margin": 2.160317838191986,
+        "layout": "LLLNNN",
+        "bare_ocr": "LEE179",
+        "crop_file": "DSC_0883_plate_569_804.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0885.JPG",
+    "width": 1361,
+    "height": 1057,
+    "plates": [
+      {
+        "box": [
+          827,
+          731,
+          934,
+          798
+        ],
+        "confidence": 0.8703699707984924,
+        "plate": "LEE2658",
+        "display_plate": "LEE-2658",
+        "quality": 0.910116984193676,
+        "margin": 3.873865842819214,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE2658",
+        "crop_file": "DSC_0885_plate_827_731.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0886.JPG",
+    "width": 2345,
+    "height": 1833,
+    "plates": [
+      {
+        "box": [
+          1188,
+          1289,
+          1445,
+          1457
+        ],
+        "confidence": 0.8815714120864868,
+        "plate": "LEE3085",
+        "display_plate": "LEE-3085",
+        "quality": 0.9312424571232762,
+        "margin": 3.7732033729553223,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE3085",
+        "crop_file": "DSC_0886_plate_1188_1289.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0887.JPG",
+    "width": 1873,
+    "height": 1481,
+    "plates": [
+      {
+        "box": [
+          868,
+          986,
+          1147,
+          1138
+        ],
+        "confidence": 0.9137066602706909,
+        "plate": "BDY760",
+        "display_plate": "BDY-760",
+        "quality": 0.9597893242076064,
+        "margin": 4.998361110687256,
+        "layout": "LLLNNN",
+        "bare_ocr": "BDY760",
+        "crop_file": "DSC_0887_plate_868_986.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0888.JPG",
+    "width": 1729,
+    "height": 1353,
+    "plates": [
+      {
+        "box": [
+          860,
+          840,
+          1117,
+          974
+        ],
+        "confidence": 0.9126871824264526,
+        "plate": "AJR386",
+        "display_plate": "AJR-386",
+        "quality": 0.957944261522123,
+        "margin": 4.983037948608398,
+        "layout": "LLLNNN",
+        "bare_ocr": "AJR386",
+        "crop_file": "DSC_0888_plate_860_840.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0889.JPG",
+    "width": 1073,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          397,
+          541,
+          553,
+          601
+        ],
+        "confidence": 0.8978124856948853,
+        "plate": "SLF9899",
+        "display_plate": "SLF-9899",
+        "quality": 0.8756549932453176,
+        "margin": 2.0780630111694336,
+        "layout": "LLLNNNN",
+        "bare_ocr": "SLF9899",
+        "crop_file": "DSC_0889_plate_397_541.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0890.JPG",
+    "width": 1465,
+    "height": 1049,
+    "plates": [
+      {
+        "box": [
+          755,
+          660,
+          971,
+          772
+        ],
+        "confidence": 0.9031046628952026,
+        "plate": "LEB3300",
+        "display_plate": "LEB-3300",
+        "quality": 0.9577572455263175,
+        "margin": 5.162795543670654,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB3300",
+        "crop_file": "DSC_0890_plate_755_660.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0891.JPG",
+    "width": 1825,
+    "height": 1329,
+    "plates": [
+      {
+        "box": [
+          1168,
+          785,
+          1344,
+          887
+        ],
+        "confidence": 0.8905650973320007,
+        "plate": "LZB3001",
+        "display_plate": "LZB-3001",
+        "quality": 0.9589272224084529,
+        "margin": 4.29311990737915,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LZB3001",
+        "crop_file": "DSC_0891_plate_1168_785.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0892.JPG",
+    "width": 1857,
+    "height": 1281,
+    "plates": [
+      {
+        "box": [
+          847,
+          790,
+          1061,
+          896
+        ],
+        "confidence": 0.9127073884010315,
+        "plate": "BD7948",
+        "display_plate": "BD-7948",
+        "quality": 0.6724677486840536,
+        "margin": 1.0608363151550293,
+        "layout": "LLNNNN",
+        "bare_ocr": "BD7948",
+        "crop_file": "DSC_0892_plate_847_790.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0893.JPG",
+    "width": 2769,
+    "height": 1953,
+    "plates": [
+      {
+        "box": [
+          1340,
+          1221,
+          1676,
+          1401
+        ],
+        "confidence": 0.9237203598022461,
+        "plate": "MN385",
+        "display_plate": "MN-385",
+        "quality": 0.9655924786529367,
+        "margin": 4.147342205047607,
+        "layout": "LLNNN",
+        "bare_ocr": "MN385",
+        "crop_file": "DSC_0893_plate_1340_1221.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0894.JPG",
+    "width": 1661,
+    "height": 1381,
+    "plates": [
+      {
+        "box": [
+          844,
+          1055,
+          1056,
+          1123
+        ],
+        "confidence": 0.8808698654174805,
+        "plate": "MNE17",
+        "display_plate": "MNE-17",
+        "quality": 0.9611207624877223,
+        "margin": 3.1121717900037766,
+        "layout": "LLLNN",
+        "bare_ocr": "MNE17",
+        "crop_file": "DSC_0894_plate_844_1055.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0894x.jpg",
+    "width": 2263,
+    "height": 1449,
+    "plates": [
+      {
+        "box": [
+          1091,
+          1007,
+          1361,
+          1150
+        ],
+        "confidence": 0.9053812026977539,
+        "plate": "RNE5556",
+        "display_plate": "RNE-5556",
+        "quality": 0.9238476023303315,
+        "margin": 3.1954002380371094,
+        "layout": "LLLNNNN",
+        "bare_ocr": "RNE5556",
+        "crop_file": "DSC_0894x_plate_1091_1007.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0894xx.jpg",
+    "width": 1321,
+    "height": 1097,
+    "plates": [
+      {
+        "box": [
+          861,
+          706,
+          1061,
+          779
+        ],
+        "confidence": 0.9092589616775513,
+        "plate": "MN384",
+        "display_plate": "MN-384",
+        "quality": 0.9618355908135515,
+        "margin": 5.25236701965332,
+        "layout": "LLNNN",
+        "bare_ocr": "MN384",
+        "crop_file": "DSC_0894xx_plate_861_706.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0895.JPG",
+    "width": 1249,
+    "height": 905,
+    "plates": [
+      {
+        "box": [
+          791,
+          487,
+          940,
+          570
+        ],
+        "confidence": 0.9212217330932617,
+        "plate": "MN2615",
+        "display_plate": "MN-2615",
+        "quality": 0.9349812809613596,
+        "margin": 3.9010040760040283,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN2615",
+        "crop_file": "DSC_0895_plate_791_487.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0897.JPG",
+    "width": 1721,
+    "height": 1081,
+    "plates": [
+      {
+        "box": [
+          841,
+          697,
+          1059,
+          812
+        ],
+        "confidence": 0.9293290972709656,
+        "plate": "LE4207",
+        "display_plate": "LE-4207",
+        "quality": 0.9674533780202003,
+        "margin": 4.174476623535156,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE4207",
+        "crop_file": "DSC_0897_plate_841_697.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0898.JPG",
+    "width": 1321,
+    "height": 1105,
+    "plates": [
+      {
+        "box": [
+          680,
+          669,
+          874,
+          771
+        ],
+        "confidence": 0.9225194454193115,
+        "plate": "MNE884",
+        "display_plate": "MNE-884",
+        "quality": 0.9667153581339984,
+        "margin": 4.474850654602051,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNE884",
+        "crop_file": "DSC_0898_plate_680_669.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0900.JPG",
+    "width": 1385,
+    "height": 1089,
+    "plates": [
+      {
+        "box": [
+          744,
+          667,
+          934,
+          767
+        ],
+        "confidence": 0.9224874973297119,
+        "plate": "LEB3167",
+        "display_plate": "LEB-3167",
+        "quality": 0.9555364511328314,
+        "margin": 4.2397613525390625,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB3167",
+        "crop_file": "DSC_0900_plate_744_667.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0901.JPG",
+    "width": 1529,
+    "height": 1057,
+    "plates": [
+      {
+        "box": [
+          901,
+          713,
+          1065,
+          822
+        ],
+        "confidence": 0.9042013883590698,
+        "plate": "MNA3415",
+        "display_plate": "MNA-3415",
+        "quality": 0.9192074851790063,
+        "margin": 3.3754711151123047,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA3415",
+        "crop_file": "DSC_0901_plate_901_713.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0902.JPG",
+    "width": 1857,
+    "height": 1249,
+    "plates": [
+      {
+        "box": [
+          839,
+          816,
+          1089,
+          906
+        ],
+        "confidence": 0.9060182571411133,
+        "plate": "LED2835",
+        "display_plate": "LED-2835",
+        "quality": 0.9465562534394695,
+        "margin": 4.410156726837158,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED2835",
+        "crop_file": "DSC_0902_plate_839_816.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0904.JPG",
+    "width": 1113,
+    "height": 945,
+    "plates": [
+      {
+        "box": [
+          519,
+          599,
+          654,
+          692
+        ],
+        "confidence": 0.8943363428115845,
+        "plate": "LEH5066",
+        "display_plate": "LEH-5066",
+        "quality": 0.9618132137928461,
+        "margin": 4.412846565246582,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH5066",
+        "crop_file": "DSC_0904_plate_519_599.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0905.JPG",
+    "width": 2609,
+    "height": 1993,
+    "plates": [
+      {
+        "box": [
+          1434,
+          1425,
+          1682,
+          1583
+        ],
+        "confidence": 0.9007211923599243,
+        "plate": "LE5822",
+        "display_plate": "LE-5822",
+        "quality": 0.9395581192680268,
+        "margin": 2.7333834171295166,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE5822",
+        "crop_file": "DSC_0905_plate_1434_1425.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0906.JPG",
+    "width": 1977,
+    "height": 1577,
+    "plates": [
+      {
+        "box": [
+          1025,
+          1185,
+          1207,
+          1282
+        ],
+        "confidence": 0.8712971806526184,
+        "plate": "LRT3847",
+        "display_plate": "LRT-3847",
+        "quality": 0.9320722083830536,
+        "margin": 2.9153738021850586,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LRT3847",
+        "crop_file": "DSC_0906_plate_1025_1185.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0907.JPG",
+    "width": 1097,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          551,
+          534,
+          721,
+          621
+        ],
+        "confidence": 0.9068679809570312,
+        "plate": "MNF948",
+        "display_plate": "MNF-948",
+        "quality": 0.9616396759099863,
+        "margin": 3.1005427837371826,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNF948",
+        "crop_file": "DSC_0907_plate_551_534.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0908.JPG",
+    "width": 1143,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          890,
+          442,
+          1007,
+          505
+        ],
+        "confidence": 0.925801694393158,
+        "plate": "MNA5999",
+        "display_plate": "MNA-5999",
+        "quality": 0.9685008158127634,
+        "margin": 4.865188121795654,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA5999",
+        "crop_file": "DSC_0908_plate_890_442.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0908x.jpg",
+    "width": 1032,
+    "height": 856,
+    "plates": [
+      {
+        "box": [
+          575,
+          609,
+          691,
+          677
+        ],
+        "confidence": 0.8609412312507629,
+        "plate": "MNL2657",
+        "display_plate": "MNL-2657",
+        "quality": 0.9445837273857345,
+        "margin": 4.1780805587768555,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNL2657",
+        "crop_file": "DSC_0908x_plate_575_609.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0911.JPG",
+    "width": 1153,
+    "height": 825,
+    "plates": [
+      {
+        "box": [
+          643,
+          453,
+          743,
+          514
+        ],
+        "confidence": 0.8853179216384888,
+        "plate": "MND325",
+        "display_plate": "MND-325",
+        "quality": 0.970567962060696,
+        "margin": 4.748420715332031,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND325",
+        "crop_file": "DSC_0911_plate_643_453.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0912.JPG",
+    "width": 1921,
+    "height": 1169,
+    "plates": [
+      {
+        "box": [
+          1305,
+          665,
+          1473,
+          764
+        ],
+        "confidence": 0.9138444662094116,
+        "plate": "MND325",
+        "display_plate": "MND-325",
+        "quality": 0.9739351614595256,
+        "margin": 4.652970790863037,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND325",
+        "crop_file": "DSC_0912_plate_1305_665.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0914.JPG",
+    "width": 1193,
+    "height": 793,
+    "plates": [
+      {
+        "box": [
+          582,
+          482,
+          722,
+          558
+        ],
+        "confidence": 0.9137613773345947,
+        "plate": "LEF1406",
+        "display_plate": "LEF-1406",
+        "quality": 0.9106013560928331,
+        "margin": 3.445173501968384,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEF1406",
+        "crop_file": "DSC_0914_plate_582_482.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0915.JPG",
+    "width": 4991,
+    "height": 3081,
+    "plates": [
+      {
+        "box": [
+          2857,
+          2394,
+          3164,
+          2556
+        ],
+        "confidence": 0.8153665065765381,
+        "plate": "LES5959",
+        "display_plate": "LES-5959",
+        "quality": 0.9693847733598632,
+        "margin": 4.451148986816406,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LES5959",
+        "crop_file": "DSC_0915_plate_2857_2394.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0916.JPG",
+    "width": 1936,
+    "height": 1552,
+    "plates": [
+      {
+        "box": [
+          940,
+          1030,
+          1093,
+          1141
+        ],
+        "confidence": 0.8876423835754395,
+        "plate": "LEI2168",
+        "display_plate": "LEI-2168",
+        "quality": 0.9459364960100604,
+        "margin": 2.6023964881896973,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEI2168",
+        "crop_file": "DSC_0916_plate_940_1030.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0917.JPG",
+    "width": 2201,
+    "height": 1937,
+    "plates": [
+      {
+        "box": [
+          1099,
+          1406,
+          1289,
+          1508
+        ],
+        "confidence": 0.8559736013412476,
+        "plate": "FDS8686",
+        "display_plate": "FDS-8686",
+        "quality": 0.9420018594644813,
+        "margin": 3.69413410872221,
+        "layout": "LLLNNNN",
+        "bare_ocr": "FDS8686",
+        "crop_file": "DSC_0917_plate_1099_1406.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0918.JPG",
+    "width": 841,
+    "height": 769,
+    "plates": [
+      {
+        "box": [
+          337,
+          501,
+          449,
+          572
+        ],
+        "confidence": 0.9084281921386719,
+        "plate": "LEB5391",
+        "display_plate": "LEB-5391",
+        "quality": 0.9053789977596961,
+        "margin": 3.1975107192993164,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB5391",
+        "crop_file": "DSC_0918_plate_337_501.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0919.JPG",
+    "width": 1265,
+    "height": 1145,
+    "plates": [
+      {
+        "box": [
+          615,
+          674,
+          809,
+          777
+        ],
+        "confidence": 0.9137567281723022,
+        "plate": "MLC135",
+        "display_plate": "MLC-135",
+        "quality": 0.9190751230299221,
+        "margin": 3.2202272415161133,
+        "layout": "LLLNNN",
+        "bare_ocr": "MLC135",
+        "crop_file": "DSC_0919_plate_615_674.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0920.JPG",
+    "width": 1569,
+    "height": 1321,
+    "plates": [
+      {
+        "box": [
+          734,
+          905,
+          926,
+          1032
+        ],
+        "confidence": 0.9198259711265564,
+        "plate": "MN199",
+        "display_plate": "MN-199",
+        "quality": 0.9611113559653932,
+        "margin": 4.110005855560303,
+        "layout": "LLNNN",
+        "bare_ocr": "MN199",
+        "crop_file": "DSC_0920_plate_734_905.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0921.JPG",
+    "width": 2857,
+    "height": 2137,
+    "plates": [
+      {
+        "box": [
+          1401,
+          1466,
+          1664,
+          1632
+        ],
+        "confidence": 0.8542667031288147,
+        "plate": "LE4697",
+        "display_plate": "LE-4697",
+        "quality": 0.8995325013364802,
+        "margin": 2.9347307682037354,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE4697",
+        "crop_file": "DSC_0921_plate_1401_1466.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0922.JPG",
+    "width": 1633,
+    "height": 1353,
+    "plates": [
+      {
+        "box": [
+          853,
+          840,
+          1113,
+          987
+        ],
+        "confidence": 0.9100990295410156,
+        "plate": "AMC153",
+        "display_plate": "AMC-153",
+        "quality": 0.9561035919899602,
+        "margin": 4.931268215179443,
+        "layout": "LLLNNN",
+        "bare_ocr": "AMC153",
+        "crop_file": "DSC_0922_plate_853_840.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0923.JPG",
+    "width": 1697,
+    "height": 1281,
+    "plates": [
+      {
+        "box": [
+          560,
+          782,
+          768,
+          890
+        ],
+        "confidence": 0.8956841230392456,
+        "plate": "MN599",
+        "display_plate": "MN-599",
+        "quality": 0.9664075079339517,
+        "margin": 4.474663734436035,
+        "layout": "LLNNN",
+        "bare_ocr": "MN599",
+        "crop_file": "DSC_0923_plate_560_782.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0925.JPG",
+    "width": 1689,
+    "height": 1129,
+    "plates": [
+      {
+        "box": [
+          815,
+          758,
+          1032,
+          869
+        ],
+        "confidence": 0.9213314056396484,
+        "plate": "RNN3063",
+        "display_plate": "RNN-3063",
+        "quality": 0.9242600476697876,
+        "margin": 3.578206777572632,
+        "layout": "LLLNNNN",
+        "bare_ocr": "RNN3063",
+        "crop_file": "DSC_0925_plate_815_758.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0926.JPG",
+    "width": 1313,
+    "height": 1041,
+    "plates": [
+      {
+        "box": [
+          637,
+          649,
+          770,
+          721
+        ],
+        "confidence": 0.8879550695419312,
+        "plate": "LEA9854",
+        "display_plate": "LEA-9854",
+        "quality": 0.9490624755134861,
+        "margin": 4.250144004821777,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA9854",
+        "crop_file": "DSC_0926_plate_637_649.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0927.JPG",
+    "width": 817,
+    "height": 705,
+    "plates": [
+      {
+        "box": [
+          457,
+          456,
+          552,
+          518
+        ],
+        "confidence": 0.9157774448394775,
+        "plate": "MNA6335",
+        "display_plate": "MNA-6335",
+        "quality": 0.8993196777878658,
+        "margin": 2.414778709411621,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA6335",
+        "crop_file": "DSC_0927_plate_457_456.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0928.JPG",
+    "width": 1647,
+    "height": 1137,
+    "plates": [
+      {
+        "box": [
+          1109,
+          783,
+          1285,
+          904
+        ],
+        "confidence": 0.9151991605758667,
+        "plate": "LEA4119",
+        "display_plate": "LEA-4119",
+        "quality": 0.9312856087796111,
+        "margin": 3.8757364749908447,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA4119",
+        "crop_file": "DSC_0928_plate_1109_783.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0930.JPG",
+    "width": 2065,
+    "height": 1457,
+    "plates": [
+      {
+        "box": [
+          994,
+          938,
+          1260,
+          1080
+        ],
+        "confidence": 0.8994159698486328,
+        "plate": "LED1607",
+        "display_plate": "LED-1607",
+        "quality": 0.9274860636892718,
+        "margin": 3.5240871906280518,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED1607",
+        "crop_file": "DSC_0930_plate_994_938.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0931.JPG",
+    "width": 1993,
+    "height": 1385,
+    "plates": [
+      {
+        "box": [
+          929,
+          899,
+          1149,
+          1047
+        ],
+        "confidence": 0.9060955047607422,
+        "plate": "LE5529",
+        "display_plate": "LE-5529",
+        "quality": 0.9717691952012449,
+        "margin": 4.741758823394775,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE5529",
+        "crop_file": "DSC_0931_plate_929_899.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0931x.jpg",
+    "width": 761,
+    "height": 609,
+    "plates": [
+      {
+        "box": [
+          355,
+          380,
+          453,
+          431
+        ],
+        "confidence": 0.9134893417358398,
+        "plate": "LEB4524",
+        "display_plate": "LEB-4524",
+        "quality": 0.9488577280028727,
+        "margin": 2.981300115585327,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB4524",
+        "crop_file": "DSC_0931x_plate_355_380.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0932.JPG",
+    "width": 2585,
+    "height": 1745,
+    "plates": [
+      {
+        "box": [
+          1413,
+          1225,
+          1773,
+          1423
+        ],
+        "confidence": 0.917499303817749,
+        "plate": "MNF138",
+        "display_plate": "MNF-138",
+        "quality": 0.9596090675966624,
+        "margin": 3.9057815074920654,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNF138",
+        "crop_file": "DSC_0932_plate_1413_1225.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0932x.jpg",
+    "width": 1193,
+    "height": 833,
+    "plates": [
+      {
+        "box": [
+          585,
+          511,
+          752,
+          600
+        ],
+        "confidence": 0.9248396158218384,
+        "plate": "LEB4524",
+        "display_plate": "LEB-4524",
+        "quality": 0.9694267917665506,
+        "margin": 4.985870361328125,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB4524",
+        "crop_file": "DSC_0932x_plate_585_511.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0933.JPG",
+    "width": 2689,
+    "height": 1825,
+    "plates": [
+      {
+        "box": [
+          1539,
+          1130,
+          1882,
+          1316
+        ],
+        "confidence": 0.9259344339370728,
+        "plate": "LEB4524",
+        "display_plate": "LEB-4524",
+        "quality": 0.9682872979763686,
+        "margin": 4.8741021156311035,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB4524",
+        "crop_file": "DSC_0933_plate_1539_1130.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0936.JPG",
+    "width": 1593,
+    "height": 1241,
+    "plates": [
+      {
+        "box": [
+          769,
+          827,
+          951,
+          950
+        ],
+        "confidence": 0.9024716019630432,
+        "plate": "MNF602",
+        "display_plate": "MNF-602",
+        "quality": 0.9539527067283858,
+        "margin": 2.9622573852539062,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNF602",
+        "crop_file": "DSC_0936_plate_769_827.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0937.JPG",
+    "width": 2097,
+    "height": 1153,
+    "plates": [
+      {
+        "box": [
+          1150,
+          730,
+          1389,
+          816
+        ],
+        "confidence": 0.8705130219459534,
+        "plate": "LEF8755",
+        "display_plate": "LEF-8755",
+        "quality": 0.8698095113176004,
+        "margin": 3.2126193046569824,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEF8755",
+        "crop_file": "DSC_0937_plate_1150_730.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0938.JPG",
+    "width": 2049,
+    "height": 1329,
+    "plates": [
+      {
+        "box": [
+          1011,
+          828,
+          1282,
+          974
+        ],
+        "confidence": 0.9219985008239746,
+        "plate": "LEE1191",
+        "display_plate": "LEE-1191",
+        "quality": 0.9431406784348592,
+        "margin": 3.8446972370147705,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE1191",
+        "crop_file": "DSC_0938_plate_1011_828.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0939.JPG",
+    "width": 841,
+    "height": 633,
+    "plates": [
+      {
+        "box": [
+          491,
+          401,
+          587,
+          451
+        ],
+        "confidence": 0.8968067765235901,
+        "plate": "MN2714",
+        "display_plate": "MN-2714",
+        "quality": 0.9491355450702015,
+        "margin": 3.674349546432495,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN2714",
+        "crop_file": "DSC_0939_plate_491_401.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0941.JPG",
+    "width": 1449,
+    "height": 953,
+    "plates": [
+      {
+        "box": [
+          748,
+          656,
+          888,
+          744
+        ],
+        "confidence": 0.9038916826248169,
+        "plate": "LEA3334",
+        "display_plate": "LEA-3334",
+        "quality": 0.6799190050742276,
+        "margin": 1.540452480316162,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA3334",
+        "crop_file": "DSC_0941_plate_748_656.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0942.JPG",
+    "width": 1265,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          763,
+          569,
+          879,
+          648
+        ],
+        "confidence": 0.9098470211029053,
+        "plate": "LED3493",
+        "display_plate": "LED-3493",
+        "quality": 0.9156762219067441,
+        "margin": 3.2598066329956055,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED3493",
+        "crop_file": "DSC_0942_plate_763_569.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0942x.jpg",
+    "width": 905,
+    "height": 769,
+    "plates": [
+      {
+        "box": [
+          369,
+          533,
+          484,
+          607
+        ],
+        "confidence": 0.9129607677459717,
+        "plate": "MNC732",
+        "display_plate": "MNC-732",
+        "quality": 0.9510400900641539,
+        "margin": 3.465336322784424,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNC732",
+        "crop_file": "DSC_0942x_plate_369_533.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0943.JPG",
+    "width": 1497,
+    "height": 1025,
+    "plates": [
+      {
+        "box": [
+          775,
+          628,
+          994,
+          750
+        ],
+        "confidence": 0.9144800901412964,
+        "plate": "MN1719",
+        "display_plate": "MN-1719",
+        "quality": 0.9432220877080054,
+        "margin": 3.3240997791290283,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN1719",
+        "crop_file": "DSC_0943_plate_775_628.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0944.JPG",
+    "width": 3521,
+    "height": 2033,
+    "plates": [
+      {
+        "box": [
+          2052,
+          1315,
+          2507,
+          1570
+        ],
+        "confidence": 0.9192807674407959,
+        "plate": "MN1719",
+        "display_plate": "MN-1719",
+        "quality": 0.9510259582479504,
+        "margin": 3.521311044692993,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN1719",
+        "crop_file": "DSC_0944_plate_2052_1315.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0944x.jpg",
+    "width": 1337,
+    "height": 1105,
+    "plates": [
+      {
+        "box": [
+          701,
+          722,
+          904,
+          831
+        ],
+        "confidence": 0.9172995686531067,
+        "plate": "LZ4897",
+        "display_plate": "LZ-4897",
+        "quality": 0.9742584404965974,
+        "margin": 5.2811503410339355,
+        "layout": "LLNNNN",
+        "bare_ocr": "LZ4897",
+        "crop_file": "DSC_0944x_plate_701_722.jpg"
+      },
+      {
+        "box": [
+          26,
+          536,
+          87,
+          581
+        ],
+        "confidence": 0.7810081243515015,
+        "plate": "MW0",
+        "display_plate": "MW-0",
+        "quality": 0.23982889396973417,
+        "margin": 0.0218203067779541,
+        "layout": "LLN",
+        "bare_ocr": "",
+        "crop_file": "DSC_0944x_plate_26_536.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0945.JPG",
+    "width": 1624,
+    "height": 1184,
+    "plates": [
+      {
+        "box": [
+          843,
+          788,
+          1062,
+          906
+        ],
+        "confidence": 0.9169584512710571,
+        "plate": "AWJ416",
+        "display_plate": "AWJ-416",
+        "quality": 0.9593807837203662,
+        "margin": 3.852957010269165,
+        "layout": "LLLNNN",
+        "bare_ocr": "AWJ416",
+        "crop_file": "DSC_0945_plate_843_788.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0946.JPG",
+    "width": 1321,
+    "height": 1025,
+    "plates": [
+      {
+        "box": [
+          827,
+          643,
+          1022,
+          753
+        ],
+        "confidence": 0.9157521724700928,
+        "plate": "LEC1132",
+        "display_plate": "LEC-1132",
+        "quality": 0.9460220993526388,
+        "margin": 3.209554672241211,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC1132",
+        "crop_file": "DSC_0946_plate_827_643.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0947.JPG",
+    "width": 1473,
+    "height": 1185,
+    "plates": [
+      {
+        "box": [
+          585,
+          770,
+          760,
+          885
+        ],
+        "confidence": 0.9040665626525879,
+        "plate": "RNA1919",
+        "display_plate": "RNA-1919",
+        "quality": 0.7721909304028556,
+        "margin": 2.833091974258423,
+        "layout": "LLLNNNN",
+        "bare_ocr": "RNA1919",
+        "crop_file": "DSC_0947_plate_585_770.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0948.JPG",
+    "width": 1345,
+    "height": 937,
+    "plates": [
+      {
+        "box": [
+          711,
+          618,
+          892,
+          713
+        ],
+        "confidence": 0.9129245281219482,
+        "plate": "MN3215",
+        "display_plate": "MN-3215",
+        "quality": 0.9457457911383147,
+        "margin": 3.952786684036255,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN3215",
+        "crop_file": "DSC_0948_plate_711_618.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0949.JPG",
+    "width": 1369,
+    "height": 961,
+    "plates": [
+      {
+        "box": [
+          818,
+          551,
+          975,
+          633
+        ],
+        "confidence": 0.9303733110427856,
+        "plate": "LEE9121",
+        "display_plate": "LEE-9121",
+        "quality": 0.9653944333295769,
+        "margin": 4.278191089630127,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE9121",
+        "crop_file": "DSC_0949_plate_818_551.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0951.JPG",
+    "width": 1489,
+    "height": 1081,
+    "plates": [
+      {
+        "box": [
+          713,
+          645,
+          878,
+          735
+        ],
+        "confidence": 0.9141187071800232,
+        "plate": "CT3173",
+        "display_plate": "CT-3173",
+        "quality": 0.9590711161602093,
+        "margin": 4.904716968536377,
+        "layout": "LLNNNN",
+        "bare_ocr": "CT3173",
+        "crop_file": "DSC_0951_plate_713_645.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0952.JPG",
+    "width": 1201,
+    "height": 857,
+    "plates": [
+      {
+        "box": [
+          506,
+          541,
+          616,
+          613
+        ],
+        "confidence": 0.9015733003616333,
+        "plate": "LEE1756",
+        "display_plate": "LEE-1756",
+        "quality": 0.9494587500753865,
+        "margin": 3.8967273235321045,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE1756",
+        "crop_file": "DSC_0952_plate_506_541.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0953.JPG",
+    "width": 1857,
+    "height": 1553,
+    "plates": [
+      {
+        "box": [
+          920,
+          1103,
+          1104,
+          1224
+        ],
+        "confidence": 0.9131064414978027,
+        "plate": "MNT2245",
+        "display_plate": "MNT-2245",
+        "quality": 0.7154537353475627,
+        "margin": 1.3402724266052246,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNT2245",
+        "crop_file": "DSC_0953_plate_920_1103.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0954.JPG",
+    "width": 1585,
+    "height": 1241,
+    "plates": [
+      {
+        "box": [
+          763,
+          755,
+          971,
+          866
+        ],
+        "confidence": 0.9172896146774292,
+        "plate": "LEB3187",
+        "display_plate": "LEB-3187",
+        "quality": 0.9427086034155197,
+        "margin": 3.924600839614868,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB3187",
+        "crop_file": "DSC_0954_plate_763_755.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0955.JPG",
+    "width": 1329,
+    "height": 1105,
+    "plates": [
+      {
+        "box": [
+          621,
+          753,
+          830,
+          866
+        ],
+        "confidence": 0.9067968726158142,
+        "plate": "MNA3675",
+        "display_plate": "MNA-3675",
+        "quality": 0.944675323232779,
+        "margin": 3.8530240058898926,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA3675",
+        "crop_file": "DSC_0955_plate_621_753.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0956.JPG",
+    "width": 3201,
+    "height": 2145,
+    "plates": []
+  },
+  {
+    "filename": "DSC_0957.JPG",
+    "width": 1289,
+    "height": 1089,
+    "plates": [
+      {
+        "box": [
+          595,
+          724,
+          807,
+          833
+        ],
+        "confidence": 0.9032243490219116,
+        "plate": "MLN2791",
+        "display_plate": "MLN-2791",
+        "quality": 0.9493549883765635,
+        "margin": 3.8667755126953125,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MLN2791",
+        "crop_file": "DSC_0957_plate_595_724.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0958.JPG",
+    "width": 1585,
+    "height": 1201,
+    "plates": [
+      {
+        "box": [
+          885,
+          764,
+          1099,
+          876
+        ],
+        "confidence": 0.9301955103874207,
+        "plate": "LEC7212",
+        "display_plate": "LEC-7212",
+        "quality": 0.9352260590439747,
+        "margin": 3.7157421112060547,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC7212",
+        "crop_file": "DSC_0958_plate_885_764.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0959.JPG",
+    "width": 1033,
+    "height": 809,
+    "plates": [
+      {
+        "box": [
+          451,
+          523,
+          573,
+          601
+        ],
+        "confidence": 0.9075270891189575,
+        "plate": "LEH7395",
+        "display_plate": "LEH-7395",
+        "quality": 0.9054634242188563,
+        "margin": 3.7364330291748047,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH7395",
+        "crop_file": "DSC_0959_plate_451_523.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0962.JPG",
+    "width": 1905,
+    "height": 1617,
+    "plates": [
+      {
+        "box": [
+          929,
+          1093,
+          1184,
+          1260
+        ],
+        "confidence": 0.9084609150886536,
+        "plate": "MN856",
+        "display_plate": "MN-856",
+        "quality": 0.8967177364212559,
+        "margin": 2.768341541290283,
+        "layout": "LLNNN",
+        "bare_ocr": "MN856",
+        "crop_file": "DSC_0962_plate_929_1093.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0964.JPG",
+    "width": 1113,
+    "height": 905,
+    "plates": [
+      {
+        "box": [
+          528,
+          538,
+          675,
+          613
+        ],
+        "confidence": 0.919272243976593,
+        "plate": "MN3101",
+        "display_plate": "MN-3101",
+        "quality": 0.9546352908651228,
+        "margin": 4.06020975112915,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN3101",
+        "crop_file": "DSC_0964_plate_528_538.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0966.JPG",
+    "width": 2305,
+    "height": 1633,
+    "plates": [
+      {
+        "box": [
+          1213,
+          1011,
+          1527,
+          1182
+        ],
+        "confidence": 0.9163732528686523,
+        "plate": "LEA9000",
+        "display_plate": "LEA-9000",
+        "quality": 0.9384856545618397,
+        "margin": 4.627551555633545,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA9000",
+        "crop_file": "DSC_0966_plate_1213_1011.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0967.JPG",
+    "width": 1433,
+    "height": 1417,
+    "plates": [
+      {
+        "box": [
+          627,
+          1091,
+          779,
+          1188
+        ],
+        "confidence": 0.8980468511581421,
+        "plate": "BRT3461",
+        "display_plate": "BRT-3461",
+        "quality": 0.9404641478284554,
+        "margin": 4.00848913192749,
+        "layout": "LLLNNNN",
+        "bare_ocr": "BRT3461",
+        "crop_file": "DSC_0967_plate_627_1091.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0968.JPG",
+    "width": 889,
+    "height": 769,
+    "plates": [
+      {
+        "box": [
+          413,
+          468,
+          514,
+          534
+        ],
+        "confidence": 0.9119511842727661,
+        "plate": "LEA1856",
+        "display_plate": "LEA-1856",
+        "quality": 0.9376199392639334,
+        "margin": 4.319328308105469,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA1856",
+        "crop_file": "DSC_0968_plate_413_468.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0969.JPG",
+    "width": 865,
+    "height": 713,
+    "plates": [
+      {
+        "box": [
+          431,
+          448,
+          529,
+          512
+        ],
+        "confidence": 0.9218023419380188,
+        "plate": "MNA3685",
+        "display_plate": "MNA-3685",
+        "quality": 0.9351860010013756,
+        "margin": 4.56296443939209,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA3685",
+        "crop_file": "DSC_0969_plate_431_448.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0970.JPG",
+    "width": 1009,
+    "height": 905,
+    "plates": [
+      {
+        "box": [
+          536,
+          569,
+          646,
+          638
+        ],
+        "confidence": 0.8831924200057983,
+        "plate": "LWK5850",
+        "display_plate": "LWK-5850",
+        "quality": 0.9390596262990913,
+        "margin": 3.2841742038726807,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LWK5850",
+        "crop_file": "DSC_0970_plate_536_569.jpg"
+      },
+      {
+        "box": [
+          0,
+          545,
+          24,
+          573
+        ],
+        "confidence": 0.6267744898796082,
+        "plate": "DS7",
+        "display_plate": "DS-7",
+        "quality": 0.2811580271033305,
+        "margin": 0.027880430221557617,
+        "layout": "LLN",
+        "bare_ocr": "",
+        "crop_file": "DSC_0970_plate_0_545.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0971.JPG",
+    "width": 957,
+    "height": 865,
+    "plates": [
+      {
+        "box": [
+          403,
+          557,
+          548,
+          620
+        ],
+        "confidence": 0.906644344329834,
+        "plate": "VR287",
+        "display_plate": "VR-287",
+        "quality": 0.8022005206172199,
+        "margin": 1.838062244653702,
+        "layout": "LLNNN",
+        "bare_ocr": "VR287",
+        "crop_file": "DSC_0971_plate_403_557.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0971x.jpg",
+    "width": 737,
+    "height": 693,
+    "plates": [
+      {
+        "box": [
+          279,
+          439,
+          388,
+          506
+        ],
+        "confidence": 0.9080402851104736,
+        "plate": "MNA2206",
+        "display_plate": "MNA-2206",
+        "quality": 0.9476982150890737,
+        "margin": 4.202669143676758,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA2206",
+        "crop_file": "DSC_0971x_plate_279_439.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0973.JPG",
+    "width": 1121,
+    "height": 1009,
+    "plates": [
+      {
+        "box": [
+          450,
+          654,
+          594,
+          750
+        ],
+        "confidence": 0.9048680663108826,
+        "plate": "MND464",
+        "display_plate": "MND-464",
+        "quality": 0.9654628244097735,
+        "margin": 4.1791253089904785,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND464",
+        "crop_file": "DSC_0973_plate_450_654.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0973x.jpg",
+    "width": 1113,
+    "height": 881,
+    "plates": [
+      {
+        "box": [
+          508,
+          559,
+          672,
+          649
+        ],
+        "confidence": 0.9126469492912292,
+        "plate": "BFM731",
+        "display_plate": "BFM-731",
+        "quality": 0.9598599757060987,
+        "margin": 4.654809951782227,
+        "layout": "LLLNNN",
+        "bare_ocr": "BFM731",
+        "crop_file": "DSC_0973x_plate_508_559.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0975.JPG",
+    "width": 1505,
+    "height": 2025,
+    "plates": [
+      {
+        "box": [
+          756,
+          1497,
+          1005,
+          1587
+        ],
+        "confidence": 0.9017904996871948,
+        "plate": "LET5280",
+        "display_plate": "LET-5280",
+        "quality": 0.9486753485476137,
+        "margin": 4.482851982116699,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LET5280",
+        "crop_file": "DSC_0975_plate_756_1497.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0977.JPG",
+    "width": 1097,
+    "height": 921,
+    "plates": [
+      {
+        "box": [
+          586,
+          558,
+          760,
+          650
+        ],
+        "confidence": 0.9075955152511597,
+        "plate": "LEF2640",
+        "display_plate": "LEF-2640",
+        "quality": 0.9610453496308753,
+        "margin": 4.617617130279541,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEF2640",
+        "crop_file": "DSC_0977_plate_586_558.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0979.JPG",
+    "width": 1265,
+    "height": 881,
+    "plates": [
+      {
+        "box": [
+          802,
+          549,
+          951,
+          628
+        ],
+        "confidence": 0.9144525527954102,
+        "plate": "BRA1408",
+        "display_plate": "BRA-1408",
+        "quality": 0.9251111806304317,
+        "margin": 3.5877797603607178,
+        "layout": "LLLNNNN",
+        "bare_ocr": "BRA1408",
+        "crop_file": "DSC_0979_plate_802_549.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0982.JPG",
+    "width": 1176,
+    "height": 808,
+    "plates": [
+      {
+        "box": [
+          652,
+          555,
+          762,
+          627
+        ],
+        "confidence": 0.9077854752540588,
+        "plate": "LEB1194",
+        "display_plate": "LEB-1194",
+        "quality": 0.9536345569493827,
+        "margin": 4.4696574211120605,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB1194",
+        "crop_file": "DSC_0982_plate_652_555.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0983.JPG",
+    "width": 1089,
+    "height": 801,
+    "plates": [
+      {
+        "box": [
+          565,
+          476,
+          658,
+          539
+        ],
+        "confidence": 0.9047990441322327,
+        "plate": "MNE103",
+        "display_plate": "MNE-103",
+        "quality": 0.6502360200757568,
+        "margin": 0.6299735307693481,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNE103",
+        "crop_file": "DSC_0983_plate_565_476.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0984.JPG",
+    "width": 2385,
+    "height": 1521,
+    "plates": [
+      {
+        "box": [
+          1338,
+          974,
+          1641,
+          1136
+        ],
+        "confidence": 0.9301154017448425,
+        "plate": "LEC1487",
+        "display_plate": "LEC-1487",
+        "quality": 0.9434529569921248,
+        "margin": 4.232008457183838,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC1487",
+        "crop_file": "DSC_0984_plate_1338_974.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0985.JPG",
+    "width": 1049,
+    "height": 809,
+    "plates": [
+      {
+        "box": [
+          507,
+          491,
+          659,
+          549
+        ],
+        "confidence": 0.896915078163147,
+        "plate": "MN484",
+        "display_plate": "MN-484",
+        "quality": 0.960011054748315,
+        "margin": 4.8917341232299805,
+        "layout": "LLNNN",
+        "bare_ocr": "MN484",
+        "crop_file": "DSC_0985_plate_507_491.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0988.JPG",
+    "width": 2865,
+    "height": 1821,
+    "plates": [
+      {
+        "box": [
+          1655,
+          1189,
+          1978,
+          1367
+        ],
+        "confidence": 0.9112701416015625,
+        "plate": "VX814",
+        "display_plate": "VX-814",
+        "quality": 0.957688829463727,
+        "margin": 3.523503303527832,
+        "layout": "LLNNN",
+        "bare_ocr": "VX814",
+        "crop_file": "DSC_0988_plate_1655_1189.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0989.JPG",
+    "width": 2425,
+    "height": 1457,
+    "plates": [
+      {
+        "box": [
+          1432,
+          904,
+          1746,
+          1081
+        ],
+        "confidence": 0.9143925309181213,
+        "plate": "LE9088",
+        "display_plate": "LE-9088",
+        "quality": 0.9574820554287415,
+        "margin": 4.636747360229492,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE9088",
+        "crop_file": "DSC_0989_plate_1432_904.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0990.JPG",
+    "width": 1065,
+    "height": 993,
+    "plates": [
+      {
+        "box": [
+          473,
+          688,
+          611,
+          777
+        ],
+        "confidence": 0.9197876453399658,
+        "plate": "MNA5007",
+        "display_plate": "MNA-5007",
+        "quality": 0.9452675153271058,
+        "margin": 4.605457305908203,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA5007",
+        "crop_file": "DSC_0990_plate_473_688.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0992.JPG",
+    "width": 2049,
+    "height": 1657,
+    "plates": [
+      {
+        "box": [
+          1097,
+          993,
+          1411,
+          1161
+        ],
+        "confidence": 0.9129294753074646,
+        "plate": "LEA8999",
+        "display_plate": "LEA-8999",
+        "quality": 0.9400702797499588,
+        "margin": 4.245399475097656,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA8999",
+        "crop_file": "DSC_0992_plate_1097_993.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0994.JPG",
+    "width": 1881,
+    "height": 1305,
+    "plates": [
+      {
+        "box": [
+          1135,
+          720,
+          1369,
+          855
+        ],
+        "confidence": 0.9134286642074585,
+        "plate": "FSA5750",
+        "display_plate": "FSA-5750",
+        "quality": 0.9526093406494838,
+        "margin": 2.4854156970977783,
+        "layout": "LLLNNNN",
+        "bare_ocr": "FSA5750",
+        "crop_file": "DSC_0994_plate_1135_720.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0995.JPG",
+    "width": 1993,
+    "height": 1345,
+    "plates": [
+      {
+        "box": [
+          1077,
+          806,
+          1363,
+          919
+        ],
+        "confidence": 0.9070909023284912,
+        "plate": "EW080",
+        "display_plate": "EW-080",
+        "quality": 0.9058056035837356,
+        "margin": 2.970749217271805,
+        "layout": "LLNNN",
+        "bare_ocr": "EW080",
+        "crop_file": "DSC_0995_plate_1077_806.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0996.JPG",
+    "width": 1105,
+    "height": 905,
+    "plates": [
+      {
+        "box": [
+          512,
+          588,
+          657,
+          685
+        ],
+        "confidence": 0.905826210975647,
+        "plate": "BRS1500",
+        "display_plate": "BRS-1500",
+        "quality": 0.8658738908413869,
+        "margin": 2.2952184677124023,
+        "layout": "LLLNNNN",
+        "bare_ocr": "BRS1500",
+        "crop_file": "DSC_0996_plate_512_588.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0997.JPG",
+    "width": 2305,
+    "height": 1417,
+    "plates": [
+      {
+        "box": [
+          1153,
+          841,
+          1394,
+          978
+        ],
+        "confidence": 0.9132567048072815,
+        "plate": "MNA486",
+        "display_plate": "MNA-486",
+        "quality": 0.9678950550144922,
+        "margin": 4.400785446166992,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNA486",
+        "crop_file": "DSC_0997_plate_1153_841.jpg"
+      },
+      {
+        "box": [
+          2007,
+          571,
+          2066,
+          608
+        ],
+        "confidence": 0.5863491296768188,
+        "plate": "MM1133",
+        "display_plate": "MM-1133",
+        "quality": 0.1865473407517379,
+        "margin": 0.02985239028930664,
+        "layout": "LLNNNN",
+        "bare_ocr": "M31133",
+        "crop_file": "DSC_0997_plate_2007_571.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0998.JPG",
+    "width": 1281,
+    "height": 1081,
+    "plates": [
+      {
+        "box": [
+          489,
+          660,
+          626,
+          755
+        ],
+        "confidence": 0.8982540369033813,
+        "plate": "MN4708",
+        "display_plate": "MN-4708",
+        "quality": 0.9192964983861668,
+        "margin": 3.7814230918884277,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN4708",
+        "crop_file": "DSC_0998_plate_489_660.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_0999.JPG",
+    "width": 1673,
+    "height": 1137,
+    "plates": [
+      {
+        "box": [
+          851,
+          643,
+          1034,
+          742
+        ],
+        "confidence": 0.9099616408348083,
+        "plate": "LEA1433",
+        "display_plate": "LEA-1433",
+        "quality": 0.3672406307838713,
+        "margin": 0.3338369131088257,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA1433",
+        "crop_file": "DSC_0999_plate_851_643.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1001.JPG",
+    "width": 1711,
+    "height": 1305,
+    "plates": [
+      {
+        "box": [
+          1307,
+          766,
+          1527,
+          859
+        ],
+        "confidence": 0.9105142951011658,
+        "plate": "LED2835",
+        "display_plate": "LED-2835",
+        "quality": 0.9274931025574112,
+        "margin": 3.9396469593048096,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED2835",
+        "crop_file": "DSC_1001_plate_1307_766.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1002.JPG",
+    "width": 1161,
+    "height": 993,
+    "plates": [
+      {
+        "box": [
+          439,
+          572,
+          599,
+          666
+        ],
+        "confidence": 0.8991634249687195,
+        "plate": "AWM072",
+        "display_plate": "AWM-072",
+        "quality": 0.9563777046984447,
+        "margin": 3.787991523742676,
+        "layout": "LLLNNN",
+        "bare_ocr": "AWM072",
+        "crop_file": "DSC_1002_plate_439_572.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1003.JPG",
+    "width": 2321,
+    "height": 2017,
+    "plates": [
+      {
+        "box": [
+          1155,
+          1378,
+          1455,
+          1521
+        ],
+        "confidence": 0.8947194814682007,
+        "plate": "OQM043082",
+        "display_plate": "OQM-04-3082",
+        "quality": 0.07936016817130347,
+        "margin": 0.0,
+        "layout": "LLLNNNNNN",
+        "bare_ocr": "09MNA3082",
+        "crop_file": "DSC_1003_plate_1155_1378.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1006.JPG",
+    "width": 1329,
+    "height": 929,
+    "plates": [
+      {
+        "box": [
+          724,
+          605,
+          863,
+          686
+        ],
+        "confidence": 0.8954024314880371,
+        "plate": "MNF281",
+        "display_plate": "MNF-281",
+        "quality": 0.9550118058845579,
+        "margin": 3.6928255558013916,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNF281",
+        "crop_file": "DSC_1006_plate_724_605.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1007.JPG",
+    "width": 1921,
+    "height": 1265,
+    "plates": [
+      {
+        "box": [
+          1107,
+          827,
+          1337,
+          948
+        ],
+        "confidence": 0.9172787666320801,
+        "plate": "AZF292",
+        "display_plate": "AZF-292",
+        "quality": 0.9550260353523479,
+        "margin": 3.7130863666534424,
+        "layout": "LLLNNN",
+        "bare_ocr": "AZF292",
+        "crop_file": "DSC_1007_plate_1107_827.jpg"
+      },
+      {
+        "box": [
+          1850,
+          545,
+          1905,
+          578
+        ],
+        "confidence": 0.7414872050285339,
+        "plate": "MMT137",
+        "display_plate": "MMT-137",
+        "quality": 0.40989619682951184,
+        "margin": 0.057295382022857666,
+        "layout": "LLLNNN",
+        "bare_ocr": "MMT137E",
+        "crop_file": "DSC_1007_plate_1850_545.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1008.JPG",
+    "width": 2993,
+    "height": 1841,
+    "plates": [
+      {
+        "box": [
+          2083,
+          782,
+          2367,
+          947
+        ],
+        "confidence": 0.8801040649414062,
+        "plate": "BB3914",
+        "display_plate": "BB-3914",
+        "quality": 0.9543391061009672,
+        "margin": 4.56705379486084,
+        "layout": "LLNNNN",
+        "bare_ocr": "BB3914",
+        "crop_file": "DSC_1008_plate_2083_782.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1009.JPG",
+    "width": 1377,
+    "height": 1025,
+    "plates": [
+      {
+        "box": [
+          713,
+          658,
+          882,
+          749
+        ],
+        "confidence": 0.9255161285400391,
+        "plate": "LEC3740",
+        "display_plate": "LEC-3740",
+        "quality": 0.9539902151728223,
+        "margin": 3.946648359298706,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC3740",
+        "crop_file": "DSC_1009_plate_713_658.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1010.JPG",
+    "width": 1425,
+    "height": 1113,
+    "plates": [
+      {
+        "box": [
+          739,
+          666,
+          923,
+          766
+        ],
+        "confidence": 0.9182412624359131,
+        "plate": "MLE4008",
+        "display_plate": "MLE-4008",
+        "quality": 0.9437629425802269,
+        "margin": 4.342477321624756,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MLE4008",
+        "crop_file": "DSC_1010_plate_739_666.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1011.JPG",
+    "width": 1177,
+    "height": 881,
+    "plates": [
+      {
+        "box": [
+          570,
+          492,
+          732,
+          580
+        ],
+        "confidence": 0.9141926765441895,
+        "plate": "MN913",
+        "display_plate": "MN-913",
+        "quality": 0.9664520183150443,
+        "margin": 4.5813164710998535,
+        "layout": "LLNNN",
+        "bare_ocr": "MN913",
+        "crop_file": "DSC_1011_plate_570_492.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1014.JPG",
+    "width": 777,
+    "height": 565,
+    "plates": [
+      {
+        "box": [
+          341,
+          346,
+          425,
+          402
+        ],
+        "confidence": 0.9012423753738403,
+        "plate": "MND486",
+        "display_plate": "MND-486",
+        "quality": 0.9270910121937597,
+        "margin": 3.966139078140259,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND486",
+        "crop_file": "DSC_1014_plate_341_346.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1015.JPG",
+    "width": 1817,
+    "height": 1289,
+    "plates": [
+      {
+        "box": [
+          1131,
+          786,
+          1342,
+          907
+        ],
+        "confidence": 0.9141051173210144,
+        "plate": "MND486",
+        "display_plate": "MND-486",
+        "quality": 0.9625685643100037,
+        "margin": 4.223799705505371,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND486",
+        "crop_file": "DSC_1015_plate_1131_786.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1018.JPG",
+    "width": 1633,
+    "height": 1473,
+    "plates": [
+      {
+        "box": [
+          894,
+          828,
+          1099,
+          938
+        ],
+        "confidence": 0.9221146106719971,
+        "plate": "LEJ1637",
+        "display_plate": "LEJ-1637",
+        "quality": 0.8624749422286178,
+        "margin": 1.9207987785339355,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEJ1637",
+        "crop_file": "DSC_1018_plate_894_828.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1019.JPG",
+    "width": 1865,
+    "height": 1417,
+    "plates": [
+      {
+        "box": [
+          911,
+          889,
+          1114,
+          1032
+        ],
+        "confidence": 0.8939037322998047,
+        "plate": "MN4480",
+        "display_plate": "MN-4480",
+        "quality": 0.9474518752961615,
+        "margin": 4.084068775177002,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN4480",
+        "crop_file": "DSC_1019_plate_911_889.jpg"
+      },
+      {
+        "box": [
+          73,
+          581,
+          145,
+          623
+        ],
+        "confidence": 0.7806195616722107,
+        "plate": "LE3161",
+        "display_plate": "LE-3161",
+        "quality": 0.7911358407445113,
+        "margin": 2.0404529571533203,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE3161",
+        "crop_file": "DSC_1019_plate_73_581.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1020.JPG",
+    "width": 1385,
+    "height": 1025,
+    "plates": [
+      {
+        "box": [
+          763,
+          643,
+          930,
+          733
+        ],
+        "confidence": 0.9147976636886597,
+        "plate": "LE3161",
+        "display_plate": "LE-3161",
+        "quality": 0.9655178313864776,
+        "margin": 4.828031539916992,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE3161",
+        "crop_file": "DSC_1020_plate_763_643.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1022.JPG",
+    "width": 693,
+    "height": 605,
+    "plates": [
+      {
+        "box": [
+          329,
+          402,
+          411,
+          456
+        ],
+        "confidence": 0.8898437023162842,
+        "plate": "MND357",
+        "display_plate": "MND-357",
+        "quality": 0.9532239971934753,
+        "margin": 3.880380392074585,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND357",
+        "crop_file": "DSC_1022_plate_329_402.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1023.JPG",
+    "width": 1457,
+    "height": 1185,
+    "plates": [
+      {
+        "box": [
+          773,
+          734,
+          932,
+          839
+        ],
+        "confidence": 0.9126136898994446,
+        "plate": "MND357",
+        "display_plate": "MND-357",
+        "quality": 0.957150836308841,
+        "margin": 3.985443353652954,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND357",
+        "crop_file": "DSC_1023_plate_773_734.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1026.JPG",
+    "width": 2241,
+    "height": 1689,
+    "plates": [
+      {
+        "box": [
+          1131,
+          1092,
+          1476,
+          1281
+        ],
+        "confidence": 0.9172896146774292,
+        "plate": "LEC917",
+        "display_plate": "LEC-917",
+        "quality": 0.9733351767586929,
+        "margin": 5.03447961807251,
+        "layout": "LLLNNN",
+        "bare_ocr": "LEC917",
+        "crop_file": "DSC_1026_plate_1131_1092.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1027.JPG",
+    "width": 1969,
+    "height": 1249,
+    "plates": [
+      {
+        "box": [
+          1194,
+          793,
+          1417,
+          916
+        ],
+        "confidence": 0.9194386601448059,
+        "plate": "LEH6314",
+        "display_plate": "LEH-6314",
+        "quality": 0.9569332071741019,
+        "margin": 4.55975866317749,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH6314",
+        "crop_file": "DSC_1027_plate_1194_793.jpg"
+      },
+      {
+        "box": [
+          4,
+          502,
+          53,
+          535
+        ],
+        "confidence": 0.7400903701782227,
+        "plate": "LCE4136",
+        "display_plate": "LCE-4136",
+        "quality": 0.3932431054007298,
+        "margin": 0.116302490234375,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LCE4136",
+        "crop_file": "DSC_1027_plate_4_502.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1028.JPG",
+    "width": 2777,
+    "height": 2049,
+    "plates": [
+      {
+        "box": [
+          1404,
+          1442,
+          1737,
+          1644
+        ],
+        "confidence": 0.9175456762313843,
+        "plate": "LDA9363",
+        "display_plate": "LDA-9363",
+        "quality": 0.30823903297395566,
+        "margin": 0.054218411445617676,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LDA93633",
+        "crop_file": "DSC_1028_plate_1404_1442.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1029.JPG",
+    "width": 2121,
+    "height": 1345,
+    "plates": [
+      {
+        "box": [
+          1234,
+          862,
+          1484,
+          998
+        ],
+        "confidence": 0.8987349271774292,
+        "plate": "SY076",
+        "display_plate": "SY-076",
+        "quality": 0.7159261690812031,
+        "margin": 1.2274260520935059,
+        "layout": "LLNNN",
+        "bare_ocr": "SY076",
+        "crop_file": "DSC_1029_plate_1234_862.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1030.JPG",
+    "width": 1673,
+    "height": 1217,
+    "plates": [
+      {
+        "box": [
+          841,
+          740,
+          1070,
+          826
+        ],
+        "confidence": 0.906688928604126,
+        "plate": "AV705",
+        "display_plate": "AV-705",
+        "quality": 0.9568282992719984,
+        "margin": 4.826427459716797,
+        "layout": "LLNNN",
+        "bare_ocr": "AV705",
+        "crop_file": "DSC_1030_plate_841_740.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1032.JPG",
+    "width": 1201,
+    "height": 953,
+    "plates": [
+      {
+        "box": [
+          562,
+          634,
+          705,
+          730
+        ],
+        "confidence": 0.9117339849472046,
+        "plate": "LED4509",
+        "display_plate": "LED-4509",
+        "quality": 0.9682203025092085,
+        "margin": 5.002435207366943,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED4509",
+        "crop_file": "DSC_1032_plate_562_634.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1033.JPG",
+    "width": 1289,
+    "height": 897,
+    "plates": [
+      {
+        "box": [
+          758,
+          535,
+          918,
+          622
+        ],
+        "confidence": 0.928720235824585,
+        "plate": "LEE3136",
+        "display_plate": "LEE-3136",
+        "quality": 0.8954060326012259,
+        "margin": 3.1386260986328125,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE3136",
+        "crop_file": "DSC_1033_plate_758_535.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1034.JPG",
+    "width": 1225,
+    "height": 889,
+    "plates": [
+      {
+        "box": [
+          614,
+          582,
+          752,
+          672
+        ],
+        "confidence": 0.9023026823997498,
+        "plate": "LEB3766",
+        "display_plate": "LEB-3766",
+        "quality": 0.8846727979391782,
+        "margin": 2.5933279991149902,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB3766",
+        "crop_file": "DSC_1034_plate_614_582.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1035.JPG",
+    "width": 1305,
+    "height": 1185,
+    "plates": [
+      {
+        "box": [
+          638,
+          702,
+          850,
+          811
+        ],
+        "confidence": 0.9052762985229492,
+        "plate": "MNB419",
+        "display_plate": "MNB-419",
+        "quality": 0.975502987925995,
+        "margin": 5.160041809082031,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNB419",
+        "crop_file": "DSC_1035_plate_638_702.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1037.JPG",
+    "width": 1825,
+    "height": 1225,
+    "plates": [
+      {
+        "box": [
+          980,
+          797,
+          1244,
+          934
+        ],
+        "confidence": 0.9168434739112854,
+        "plate": "LEH3236",
+        "display_plate": "LEH-3236",
+        "quality": 0.9467965857956655,
+        "margin": 3.9164323806762695,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH3236",
+        "crop_file": "DSC_1037_plate_980_797.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1038.JPG",
+    "width": 1969,
+    "height": 1633,
+    "plates": [
+      {
+        "box": [
+          939,
+          1125,
+          1198,
+          1298
+        ],
+        "confidence": 0.900847315788269,
+        "plate": "MN3074",
+        "display_plate": "MN-3074",
+        "quality": 0.835580091041509,
+        "margin": 2.859951972961426,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN3074",
+        "crop_file": "DSC_1038_plate_939_1125.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1039.JPG",
+    "width": 1145,
+    "height": 857,
+    "plates": [
+      {
+        "box": [
+          612,
+          519,
+          774,
+          604
+        ],
+        "confidence": 0.9255666136741638,
+        "plate": "LEH5036",
+        "display_plate": "LEH-5036",
+        "quality": 0.8567277441782746,
+        "margin": 2.8473379611968994,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH5036",
+        "crop_file": "DSC_1039_plate_612_519.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1039x.jpg",
+    "width": 736,
+    "height": 556,
+    "plates": [
+      {
+        "box": [
+          360,
+          355,
+          450,
+          404
+        ],
+        "confidence": 0.8755369186401367,
+        "plate": "ACZ853",
+        "display_plate": "ACZ-853",
+        "quality": 0.9624508294964612,
+        "margin": 5.520102500915527,
+        "layout": "LLLNNN",
+        "bare_ocr": "ACZ853",
+        "crop_file": "DSC_1039x_plate_360_355.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1040.JPG",
+    "width": 1049,
+    "height": 905,
+    "plates": [
+      {
+        "box": [
+          522,
+          594,
+          667,
+          670
+        ],
+        "confidence": 0.867114245891571,
+        "plate": "ACZ853",
+        "display_plate": "ACZ-853",
+        "quality": 0.9619262622744306,
+        "margin": 5.356368064880371,
+        "layout": "LLLNNN",
+        "bare_ocr": "ACZ853",
+        "crop_file": "DSC_1040_plate_522_594.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1041.JPG",
+    "width": 1081,
+    "height": 929,
+    "plates": [
+      {
+        "box": [
+          490,
+          579,
+          658,
+          668
+        ],
+        "confidence": 0.9157060384750366,
+        "plate": "AKN346",
+        "display_plate": "AKN-346",
+        "quality": 0.8927304112172154,
+        "margin": 2.0693976879119873,
+        "layout": "LLLNNN",
+        "bare_ocr": "AKN346",
+        "crop_file": "DSC_1041_plate_490_579.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1045.JPG",
+    "width": 857,
+    "height": 729,
+    "plates": [
+      {
+        "box": [
+          372,
+          467,
+          473,
+          533
+        ],
+        "confidence": 0.9042165279388428,
+        "plate": "MNB393",
+        "display_plate": "MNB-393",
+        "quality": 0.8987895253612752,
+        "margin": 3.039041042327881,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNB393",
+        "crop_file": "DSC_1045_plate_372_467.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1047.JPG",
+    "width": 1833,
+    "height": 1217,
+    "plates": [
+      {
+        "box": [
+          945,
+          756,
+          1196,
+          884
+        ],
+        "confidence": 0.909714937210083,
+        "plate": "FDA1966",
+        "display_plate": "FDA-1966",
+        "quality": 0.9585488052137595,
+        "margin": 4.948813438415527,
+        "layout": "LLLNNNN",
+        "bare_ocr": "FDA1966",
+        "crop_file": "DSC_1047_plate_945_756.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1048.JPG",
+    "width": 1225,
+    "height": 1081,
+    "plates": [
+      {
+        "box": [
+          505,
+          713,
+          663,
+          813
+        ],
+        "confidence": 0.9160749316215515,
+        "plate": "MNA2421",
+        "display_plate": "MNA-2421",
+        "quality": 0.9001608371579937,
+        "margin": 2.959407329559326,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA2421",
+        "crop_file": "DSC_1048_plate_505_713.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1049.JPG",
+    "width": 1137,
+    "height": 1025,
+    "plates": [
+      {
+        "box": [
+          483,
+          691,
+          675,
+          794
+        ],
+        "confidence": 0.8869574666023254,
+        "plate": "MNS750",
+        "display_plate": "MNS-750",
+        "quality": 0.5974641428581149,
+        "margin": 0.1543373316526413,
+        "layout": "LLLNNN",
+        "bare_ocr": "MNS750",
+        "crop_file": "DSC_1049_plate_483_691.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1051.JPG",
+    "width": 1441,
+    "height": 1009,
+    "plates": [
+      {
+        "box": [
+          709,
+          600,
+          896,
+          701
+        ],
+        "confidence": 0.9241681098937988,
+        "plate": "LE1051",
+        "display_plate": "LE-1051",
+        "quality": 0.8314358243839749,
+        "margin": 1.235569177567959,
+        "layout": "LLNNNN",
+        "bare_ocr": "LE1051",
+        "crop_file": "DSC_1051_plate_709_600.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1052.JPG",
+    "width": 2137,
+    "height": 1849,
+    "plates": [
+      {
+        "box": [
+          1109,
+          1095,
+          1395,
+          1243
+        ],
+        "confidence": 0.9112237095832825,
+        "plate": "BF2963",
+        "display_plate": "BF-2963",
+        "quality": 0.954952805450036,
+        "margin": 4.970990180969238,
+        "layout": "LLNNNN",
+        "bare_ocr": "BF2963",
+        "crop_file": "DSC_1052_plate_1109_1095.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1053.JPG",
+    "width": 1393,
+    "height": 1057,
+    "plates": [
+      {
+        "box": [
+          743,
+          680,
+          928,
+          747
+        ],
+        "confidence": 0.8311815857887268,
+        "plate": "MN1768",
+        "display_plate": "MN-1768",
+        "quality": 0.9582774073348835,
+        "margin": 4.7426581382751465,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN1768",
+        "crop_file": "DSC_1053_plate_743_680.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1054.JPG",
+    "width": 1329,
+    "height": 1049,
+    "plates": [
+      {
+        "box": [
+          649,
+          724,
+          851,
+          830
+        ],
+        "confidence": 0.8979268074035645,
+        "plate": "LRV8227",
+        "display_plate": "LRV-8227",
+        "quality": 0.932423115061434,
+        "margin": 4.11652135848999,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LRV8227",
+        "crop_file": "DSC_1054_plate_649_724.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1055.JPG",
+    "width": 1529,
+    "height": 1105,
+    "plates": [
+      {
+        "box": [
+          831,
+          742,
+          1012,
+          860
+        ],
+        "confidence": 0.9108299016952515,
+        "plate": "MN4524",
+        "display_plate": "MN-4524",
+        "quality": 0.9170282457354049,
+        "margin": 3.18955135345459,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN4524",
+        "crop_file": "DSC_1055_plate_831_742.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1056.JPG",
+    "width": 1241,
+    "height": 1033,
+    "plates": [
+      {
+        "box": [
+          458,
+          719,
+          679,
+          831
+        ],
+        "confidence": 0.9080848693847656,
+        "plate": "MN108",
+        "display_plate": "MN-108",
+        "quality": 0.9669676603507424,
+        "margin": 4.531435489654541,
+        "layout": "LLNNN",
+        "bare_ocr": "MN108",
+        "crop_file": "DSC_1056_plate_458_719.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1057.JPG",
+    "width": 3153,
+    "height": 2065,
+    "plates": [
+      {
+        "box": [
+          1833,
+          1355,
+          2289,
+          1598
+        ],
+        "confidence": 0.9202702045440674,
+        "plate": "LEC5112",
+        "display_plate": "LEC-5112",
+        "quality": 0.9659597762477543,
+        "margin": 4.863508224487305,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC5112",
+        "crop_file": "DSC_1057_plate_1833_1355.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1058.JPG",
+    "width": 1865,
+    "height": 1385,
+    "plates": [
+      {
+        "box": [
+          986,
+          845,
+          1229,
+          973
+        ],
+        "confidence": 0.9131870269775391,
+        "plate": "LEA9300",
+        "display_plate": "LEA-9300",
+        "quality": 0.9535522006677823,
+        "margin": 4.716920852661133,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA9300",
+        "crop_file": "DSC_1058_plate_986_845.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1059.JPG",
+    "width": 1057,
+    "height": 977,
+    "plates": [
+      {
+        "box": [
+          462,
+          707,
+          597,
+          795
+        ],
+        "confidence": 0.9035893678665161,
+        "plate": "LEA5219",
+        "display_plate": "LEA-5219",
+        "quality": 0.9634744827754002,
+        "margin": 4.679999828338623,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA5219",
+        "crop_file": "DSC_1059_plate_462_707.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1060.JPG",
+    "width": 1481,
+    "height": 1065,
+    "plates": [
+      {
+        "box": [
+          814,
+          638,
+          1020,
+          750
+        ],
+        "confidence": 0.9156954288482666,
+        "plate": "AAZ800",
+        "display_plate": "AAZ-800",
+        "quality": 0.9620437479897865,
+        "margin": 5.675302982330322,
+        "layout": "LLLNNN",
+        "bare_ocr": "AAZ800",
+        "crop_file": "DSC_1060_plate_814_638.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1062.JPG",
+    "width": 2361,
+    "height": 1857,
+    "plates": [
+      {
+        "box": [
+          1173,
+          1265,
+          1502,
+          1450
+        ],
+        "confidence": 0.8995365500450134,
+        "plate": "LEH4829",
+        "display_plate": "LEH-4829",
+        "quality": 0.9649689206641147,
+        "margin": 4.9259514808654785,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH4829",
+        "crop_file": "DSC_1062_plate_1173_1265.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1064.JPG",
+    "width": 1729,
+    "height": 1289,
+    "plates": [
+      {
+        "box": [
+          901,
+          802,
+          1152,
+          937
+        ],
+        "confidence": 0.9190568923950195,
+        "plate": "LED2112",
+        "display_plate": "LED-2112",
+        "quality": 0.939910706974731,
+        "margin": 3.9386026859283447,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED2112",
+        "crop_file": "DSC_1064_plate_901_802.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1066.JPG",
+    "width": 2401,
+    "height": 1593,
+    "plates": [
+      {
+        "box": [
+          1420,
+          989,
+          1709,
+          1149
+        ],
+        "confidence": 0.9213930368423462,
+        "plate": "LED5620",
+        "display_plate": "LED-5620",
+        "quality": 0.9481796225168223,
+        "margin": 3.0526106357574463,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LED5620",
+        "crop_file": "DSC_1066_plate_1420_989.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1067.JPG",
+    "width": 1321,
+    "height": 857,
+    "plates": [
+      {
+        "box": [
+          770,
+          518,
+          930,
+          602
+        ],
+        "confidence": 0.9207526445388794,
+        "plate": "LEH4455",
+        "display_plate": "LEH-4455",
+        "quality": 0.9669518452264596,
+        "margin": 4.454596519470215,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH4455",
+        "crop_file": "DSC_1067_plate_770_518.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1068.JPG",
+    "width": 1729,
+    "height": 1337,
+    "plates": [
+      {
+        "box": [
+          897,
+          889,
+          1180,
+          1032
+        ],
+        "confidence": 0.9091424942016602,
+        "plate": "LEB4910",
+        "display_plate": "LEB-4910",
+        "quality": 0.9666986281011107,
+        "margin": 4.887143135070801,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEB4910",
+        "crop_file": "DSC_1068_plate_897_889.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1069.JPG",
+    "width": 1977,
+    "height": 1113,
+    "plates": [
+      {
+        "box": [
+          1320,
+          688,
+          1539,
+          809
+        ],
+        "confidence": 0.926195502281189,
+        "plate": "KW99",
+        "display_plate": "KW-99",
+        "quality": 0.9690940832682018,
+        "margin": 4.21780252456665,
+        "layout": "LLNN",
+        "bare_ocr": "KW99",
+        "crop_file": "DSC_1069_plate_1320_688.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1070.JPG",
+    "width": 1337,
+    "height": 889,
+    "plates": [
+      {
+        "box": [
+          665,
+          557,
+          855,
+          660
+        ],
+        "confidence": 0.9114013910293579,
+        "plate": "LEC7208",
+        "display_plate": "LEC-7208",
+        "quality": 0.9524200721638005,
+        "margin": 4.635929107666016,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC7208",
+        "crop_file": "DSC_1070_plate_665_557.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1071.JPG",
+    "width": 1793,
+    "height": 1553,
+    "plates": [
+      {
+        "box": [
+          725,
+          1082,
+          1019,
+          1240
+        ],
+        "confidence": 0.9004538059234619,
+        "plate": "LEC1729",
+        "display_plate": "LEC-1729",
+        "quality": 0.9468564297428678,
+        "margin": 4.063207626342773,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC1729",
+        "crop_file": "DSC_1071_plate_725_1082.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1072.JPG",
+    "width": 889,
+    "height": 705,
+    "plates": [
+      {
+        "box": [
+          487,
+          396,
+          614,
+          466
+        ],
+        "confidence": 0.9049537181854248,
+        "plate": "LEE6690",
+        "display_plate": "LEE-6690",
+        "quality": 0.9238369361836029,
+        "margin": 3.9863438606262207,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEE6690",
+        "crop_file": "DSC_1072_plate_487_396.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1074.JPG",
+    "width": 1113,
+    "height": 881,
+    "plates": [
+      {
+        "box": [
+          569,
+          609,
+          699,
+          693
+        ],
+        "confidence": 0.9201115965843201,
+        "plate": "BRS1500",
+        "display_plate": "BRS-1500",
+        "quality": 0.8861187970524494,
+        "margin": 2.2896852493286133,
+        "layout": "LLLNNNN",
+        "bare_ocr": "BRS1500",
+        "crop_file": "DSC_1074_plate_569_609.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1075.JPG",
+    "width": 1017,
+    "height": 873,
+    "plates": [
+      {
+        "box": [
+          446,
+          564,
+          579,
+          652
+        ],
+        "confidence": 0.8986542820930481,
+        "plate": "MN952",
+        "display_plate": "MN-952",
+        "quality": 0.9566876601691586,
+        "margin": 3.846827745437622,
+        "layout": "LLNNN",
+        "bare_ocr": "MN952",
+        "crop_file": "DSC_1075_plate_446_564.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1076.JPG",
+    "width": 3455,
+    "height": 2513,
+    "plates": [
+      {
+        "box": [
+          2178,
+          1791,
+          2612,
+          2082
+        ],
+        "confidence": 0.9038636684417725,
+        "plate": "MN952",
+        "display_plate": "MN-952",
+        "quality": 0.9387638983675513,
+        "margin": 2.906127452850342,
+        "layout": "LLNNN",
+        "bare_ocr": "MN952",
+        "crop_file": "DSC_1076_plate_2178_1791.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1079.JPG",
+    "width": 2017,
+    "height": 1617,
+    "plates": [
+      {
+        "box": [
+          1000,
+          1088,
+          1325,
+          1204
+        ],
+        "confidence": 0.8797379732131958,
+        "plate": "BRA195",
+        "display_plate": "BRA-195",
+        "quality": 0.9305142305369364,
+        "margin": 1.2145162224769592,
+        "layout": "LLLNNN",
+        "bare_ocr": "BRA195",
+        "crop_file": "DSC_1079_plate_1000_1088.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1080.JPG",
+    "width": 1833,
+    "height": 1769,
+    "plates": [
+      {
+        "box": [
+          681,
+          1193,
+          965,
+          1342
+        ],
+        "confidence": 0.8211155533790588,
+        "plate": "KS5114",
+        "display_plate": "KS-5114",
+        "quality": 0.484185969014377,
+        "margin": 0.4730808734893799,
+        "layout": "LLNNNN",
+        "bare_ocr": "KS5114",
+        "crop_file": "DSC_1080_plate_681_1193.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1081.JPG",
+    "width": 1913,
+    "height": 1865,
+    "plates": [
+      {
+        "box": [
+          989,
+          1283,
+          1166,
+          1384
+        ],
+        "confidence": 0.8538892865180969,
+        "plate": "LES6413",
+        "display_plate": "LES-6413",
+        "quality": 0.9393827771813179,
+        "margin": 4.118023872375488,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LES6413",
+        "crop_file": "DSC_1081_plate_989_1283.jpg"
+      },
+      {
+        "box": [
+          1761,
+          1199,
+          1807,
+          1231
+        ],
+        "confidence": 0.6489855051040649,
+        "plate": "DES5091",
+        "display_plate": "DES-5091",
+        "quality": 0.30877374584589856,
+        "margin": 0.3439979553222656,
+        "layout": "LLLNNNN",
+        "bare_ocr": "DES5091",
+        "crop_file": "DSC_1081_plate_1761_1199.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1082.JPG",
+    "width": 1217,
+    "height": 953,
+    "plates": [
+      {
+        "box": [
+          672,
+          595,
+          815,
+          690
+        ],
+        "confidence": 0.9068180918693542,
+        "plate": "MNA4779",
+        "display_plate": "MNA-4779",
+        "quality": 0.9556814936990793,
+        "margin": 3.57240891456604,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA4779",
+        "crop_file": "DSC_1082_plate_672_595.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1084.JPG",
+    "width": 1857,
+    "height": 1345,
+    "plates": [
+      {
+        "box": [
+          1030,
+          885,
+          1304,
+          1036
+        ],
+        "confidence": 0.9033154845237732,
+        "plate": "LEA5770",
+        "display_plate": "LEA-5770",
+        "quality": 0.9483364558317837,
+        "margin": 4.242231369018555,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEA5770",
+        "crop_file": "DSC_1084_plate_1030_885.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1085.JPG",
+    "width": 3537,
+    "height": 2273,
+    "plates": [
+      {
+        "box": [
+          2237,
+          1411,
+          2669,
+          1660
+        ],
+        "confidence": 0.9113683700561523,
+        "plate": "AEW731",
+        "display_plate": "AEW-731",
+        "quality": 0.9604422640481374,
+        "margin": 3.796473979949951,
+        "layout": "LLLNNN",
+        "bare_ocr": "AEW731",
+        "crop_file": "DSC_1085_plate_2237_1411.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1087.JPG",
+    "width": 2729,
+    "height": 2033,
+    "plates": [
+      {
+        "box": [
+          1433,
+          1383,
+          1744,
+          1592
+        ],
+        "confidence": 0.8995930552482605,
+        "plate": "MNA2632",
+        "display_plate": "MNA-2632",
+        "quality": 0.7722903303056134,
+        "margin": 2.211512565612793,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA2632",
+        "crop_file": "DSC_1087_plate_1433_1383.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1089.JPG",
+    "width": 1505,
+    "height": 1097,
+    "plates": [
+      {
+        "box": [
+          781,
+          643,
+          998,
+          760
+        ],
+        "confidence": 0.9180853366851807,
+        "plate": "LEH8519",
+        "display_plate": "LEH-8519",
+        "quality": 0.9617171302350335,
+        "margin": 4.720216751098633,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH8519",
+        "crop_file": "DSC_1089_plate_781_643.jpg"
+      },
+      {
+        "box": [
+          1373,
+          432,
+          1432,
+          468
+        ],
+        "confidence": 0.8023974299430847,
+        "plate": "LES5891",
+        "display_plate": "LES-5891",
+        "quality": 0.8807274181101571,
+        "margin": 3.1243863105773926,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LES5891",
+        "crop_file": "DSC_1089_plate_1373_432.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1090.JPG",
+    "width": 1337,
+    "height": 825,
+    "plates": [
+      {
+        "box": [
+          772,
+          500,
+          932,
+          585
+        ],
+        "confidence": 0.91688072681427,
+        "plate": "LEC6608",
+        "display_plate": "LEC-6608",
+        "quality": 0.9344970636773382,
+        "margin": 3.5630953311920166,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC6608",
+        "crop_file": "DSC_1090_plate_772_500.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1091.JPG",
+    "width": 1892,
+    "height": 1715,
+    "plates": [
+      {
+        "box": [
+          850,
+          1184,
+          1088,
+          1275
+        ],
+        "confidence": 0.8918056488037109,
+        "plate": "VU794",
+        "display_plate": "VU-794",
+        "quality": 0.9586811008874516,
+        "margin": 5.372313499450684,
+        "layout": "LLNNN",
+        "bare_ocr": "VU794",
+        "crop_file": "DSC_1091_plate_850_1184.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1092.JPG",
+    "width": 1585,
+    "height": 1228,
+    "plates": [
+      {
+        "box": [
+          781,
+          844,
+          974,
+          971
+        ],
+        "confidence": 0.9124164581298828,
+        "plate": "MNA2993",
+        "display_plate": "MNA-2993",
+        "quality": 0.8921200969304274,
+        "margin": 3.1889426708221436,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA2993",
+        "crop_file": "DSC_1092_plate_781_844.jpg"
+      },
+      {
+        "box": [
+          76,
+          560,
+          195,
+          646
+        ],
+        "confidence": 0.9040967226028442,
+        "plate": "LEC2983",
+        "display_plate": "LEC-2983",
+        "quality": 0.8557204372053376,
+        "margin": 1.7356518507003784,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC2983",
+        "crop_file": "DSC_1092_plate_76_560.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1093.JPG",
+    "width": 3078,
+    "height": 2110,
+    "plates": [
+      {
+        "box": [
+          1777,
+          1233,
+          2191,
+          1455
+        ],
+        "confidence": 0.9107397794723511,
+        "plate": "LEC2983",
+        "display_plate": "LEC-2983",
+        "quality": 0.918518682228092,
+        "margin": 3.953291177749634,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEC2983",
+        "crop_file": "DSC_1093_plate_1777_1233.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1094.JPG",
+    "width": 1391,
+    "height": 1150,
+    "plates": [
+      {
+        "box": [
+          727,
+          774,
+          901,
+          881
+        ],
+        "confidence": 0.9040637016296387,
+        "plate": "MNA2206",
+        "display_plate": "MNA-2206",
+        "quality": 0.9284483214438803,
+        "margin": 3.8300251960754395,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA2206",
+        "crop_file": "DSC_1094_plate_727_774.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1096.JPG",
+    "width": 1196,
+    "height": 968,
+    "plates": [
+      {
+        "box": [
+          635,
+          622,
+          813,
+          719
+        ],
+        "confidence": 0.9064624905586243,
+        "plate": "LED538",
+        "display_plate": "LED-538",
+        "quality": 0.970575766105447,
+        "margin": 4.995118141174316,
+        "layout": "LLLNNN",
+        "bare_ocr": "LED538",
+        "crop_file": "DSC_1096_plate_635_622.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1097.JPG",
+    "width": 1549,
+    "height": 1146,
+    "plates": [
+      {
+        "box": [
+          848,
+          698,
+          1042,
+          805
+        ],
+        "confidence": 0.9137040376663208,
+        "plate": "FZ886",
+        "display_plate": "FZ-886",
+        "quality": 0.9563097505595805,
+        "margin": 4.014786243438721,
+        "layout": "LLNNN",
+        "bare_ocr": "FZ886",
+        "crop_file": "DSC_1097_plate_848_698.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1098.JPG",
+    "width": 1552,
+    "height": 1088,
+    "plates": [
+      {
+        "box": [
+          896,
+          707,
+          1104,
+          817
+        ],
+        "confidence": 0.9252647757530212,
+        "plate": "LEH3743",
+        "display_plate": "LEH-3743",
+        "quality": 0.9612784987186344,
+        "margin": 4.483585357666016,
+        "layout": "LLLNNNN",
+        "bare_ocr": "LEH3743",
+        "crop_file": "DSC_1098_plate_896_707.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1099.JPG",
+    "width": 1460,
+    "height": 1140,
+    "plates": [
+      {
+        "box": [
+          720,
+          758,
+          919,
+          862
+        ],
+        "confidence": 0.9261506795883179,
+        "plate": "MND690",
+        "display_plate": "MND-690",
+        "quality": 0.9682526180021884,
+        "margin": 4.602162837982178,
+        "layout": "LLLNNN",
+        "bare_ocr": "MND690",
+        "crop_file": "DSC_1099_plate_720_758.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1100.JPG",
+    "width": 2041,
+    "height": 1521,
+    "plates": [
+      {
+        "box": [
+          1112,
+          912,
+          1390,
+          1059
+        ],
+        "confidence": 0.9146307706832886,
+        "plate": "AEA591",
+        "display_plate": "AEA-591",
+        "quality": 0.963788135642339,
+        "margin": 6.006353855133057,
+        "layout": "LLLNNN",
+        "bare_ocr": "AEA591",
+        "crop_file": "DSC_1100_plate_1112_912.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1103.JPG",
+    "width": 1961,
+    "height": 1505,
+    "plates": [
+      {
+        "box": [
+          878,
+          959,
+          1100,
+          1102
+        ],
+        "confidence": 0.9246821999549866,
+        "plate": "MNA5645",
+        "display_plate": "MNA-5645",
+        "quality": 0.8958612693555031,
+        "margin": 1.9240458011627197,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA5645",
+        "crop_file": "DSC_1103_plate_878_959.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1104.JPG",
+    "width": 913,
+    "height": 833,
+    "plates": [
+      {
+        "box": [
+          395,
+          570,
+          552,
+          627
+        ],
+        "confidence": 0.8976157903671265,
+        "plate": "MN1367",
+        "display_plate": "MN-1367",
+        "quality": 0.9545461202570393,
+        "margin": 4.442979335784912,
+        "layout": "LLNNNN",
+        "bare_ocr": "MN1367",
+        "crop_file": "DSC_1104_plate_395_570.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1105.JPG",
+    "width": 1473,
+    "height": 1129,
+    "plates": [
+      {
+        "box": [
+          758,
+          721,
+          981,
+          837
+        ],
+        "confidence": 0.9160913228988647,
+        "plate": "BCX567",
+        "display_plate": "BCX-567",
+        "quality": 0.9253681288971627,
+        "margin": 2.1456875801086426,
+        "layout": "LLLNNN",
+        "bare_ocr": "BCX567",
+        "crop_file": "DSC_1105_plate_758_721.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1106.JPG",
+    "width": 1257,
+    "height": 1153,
+    "plates": [
+      {
+        "box": [
+          668,
+          707,
+          825,
+          794
+        ],
+        "confidence": 0.8934921622276306,
+        "plate": "GAZ4205",
+        "display_plate": "GAZ-4205",
+        "quality": 0.9699530311908596,
+        "margin": 5.554117202758789,
+        "layout": "LLLNNNN",
+        "bare_ocr": "GAZ4205",
+        "crop_file": "DSC_1106_plate_668_707.jpg"
+      }
+    ]
+  },
+  {
+    "filename": "DSC_1107.JPG",
+    "width": 1017,
+    "height": 921,
+    "plates": [
+      {
+        "box": [
+          489,
+          615,
+          614,
+          698
+        ],
+        "confidence": 0.9215173721313477,
+        "plate": "MNA1554",
+        "display_plate": "MNA-1554",
+        "quality": 0.947907202697141,
+        "margin": 4.49503755569458,
+        "layout": "LLLNNNN",
+        "bare_ocr": "MNA1554",
+        "crop_file": "DSC_1107_plate_489_615.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Slip {{ code }}</title>
+<style>
+  body{margin:0;background:#eee;font-family:Segoe UI,sans-serif;text-align:center}
+  img{width:340px;max-width:90vw;background:#fff;margin:16px auto;display:block;box-shadow:0 2px 10px #0003}
+  button{padding:10px 22px;font-size:16px;cursor:pointer;margin-bottom:20px}
+  @media print{body{background:#fff} button{display:none} img{box-shadow:none;margin:0;width:100%}}
+</style></head>
+<body>
+  <img src="/slips/{{ code }}.png" alt="Slip {{ code }}">
+  <button onclick="window.print()">Print this slip from the browser</button>
+</body></html>

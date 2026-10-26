@@ -1,0 +1,12 @@
+numpy
+opencv-python-headless
+onnxruntime
+pyyaml
+tqdm
+rich
+flask
+pymongo
+openpyxl
+pillow
+qrcode
+pywin32; sys_platform == "win32"
