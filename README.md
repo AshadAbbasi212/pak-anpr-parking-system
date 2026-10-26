@@ -9,6 +9,8 @@ end of the road hands the slips to the drivers. It works completely **offline** 
  [camera 1: FRONT plate]  -->  turn  -->  [camera 2: REAR plate]  -->  ...  [operator + printer]
 ```
 
+![Station Dashboard Preview](docs/images/dashboard.png)
+
 ## 1. First-time setup (Windows)
 
 1. Install **Python 3.10 or newer** from python.org (tick "Add python.exe to PATH") and make sure the **MongoDB** service is running.
