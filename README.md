@@ -111,9 +111,27 @@ problem is fixed. Tools:
 
 AI coding assistants: see `AGENTS.md`.
 
-## 7. Folders
+## 7. Real Testing Proof & Captured Numberplates
+
+The repository contains real-world testing footage results proving the ANPR pipeline in live traffic:
+
+### Live Capture & Slip Generation Examples
+
+| Vehicle Scene Detection | Extracted Plate Crop | Auto-Generated Parking Slip | Plate Read | Vehicle Type |
+|---|---|---|---|---|
+| <img src="footage/VID_20261007_172952_snapshots/camera1_DEN895_190232_895.jpg" width="280"> | <img src="footage/VID_20261007_172952_snapshots/camera1_DEN895_190232_895_plate.jpg" width="140"> | <img src="footage/VID_20261007_172952_slips/Slip_000001_DEN-895.png" width="140"> | `DEN-895` | Car |
+| <img src="footage/VID_20261007_172952_snapshots/camera1_WH965_190240_613.jpg" width="280"> | <img src="footage/VID_20261007_172952_snapshots/camera1_WH965_190240_613_plate.jpg" width="140"> | <img src="footage/VID_20261007_172952_slips/Slip_000002_WH-965.png" width="140"> | `WH-965` | Car |
+| <img src="footage/VID_20261007_172952_snapshots/camera1_ARC774_190245_495.jpg" width="280"> | <img src="footage/VID_20261007_172952_snapshots/camera1_ARC774_190245_495_plate.jpg" width="140"> | <img src="footage/VID_20261007_172952_slips/Slip_000003_ARC-774.png" width="140"> | `ARC-774` | Car |
+| <img src="footage/VID_20261007_172952_snapshots/camera1_BSJ827_190528_657.jpg" width="280"> | <img src="footage/VID_20261007_172952_snapshots/camera1_BSJ827_190528_657_plate.jpg" width="140"> | <img src="footage/VID_20261007_172952_slips/Slip_000004_BSJ-827.png" width="140"> | `BSJ-827` | Car |
+
+* **Interactive verification report**: [`footage/VID_20261007_172952_slips_review.html`](footage/VID_20261007_172952_slips_review.html)
+* **Cars dataset batch OCR report (264 plate crops)**: [`footage/Cars_review.html`](footage/Cars_review.html)
+* **Ground-truth Pakistani license plates dataset (53 plates)**: [`dataset/real_plates/`](dataset/real_plates/)
+
+## 8. Folders
 
 * `data/snapshots` - photos of every vehicle that got a decision, `data/slips` - slip pictures,
   `data/parking.log` - log file, `data/settings.json` - printer choice saved from the screen.
 * `models/` - the plate detector, plate reader and vehicle detector (from the ankandrew fast-alpr / open-image-models / fast-plate-ocr projects).
 * `third_party/` - the code of those three projects. `tests/` - automatic tests (`python -m pytest tests`).
+
